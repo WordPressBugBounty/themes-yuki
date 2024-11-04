@@ -9,17 +9,11 @@
  */
 if ( !defined( 'YUKI_VERSION' ) ) {
     // Replace the version number of the theme on each release.
-    define( 'YUKI_VERSION', '1.3.23' );
+    define( 'YUKI_VERSION', '1.4.0' );
 }
 if ( !defined( 'YUKI_WOOCOMMERCE_ACTIVE' ) ) {
     // Used to check whether WooCommerce plugin is activated
     define( 'YUKI_WOOCOMMERCE_ACTIVE', class_exists( 'WooCommerce' ) );
-}
-if ( !function_exists( 'yuki_custom_pricing_js_path' ) ) {
-    function yuki_custom_pricing_js_path() {
-        return get_template_directory() . '/freemius-pricing/freemius-pricing.js';
-    }
-
 }
 if ( !function_exists( 'yuki_fs' ) ) {
     // Create a helper function for easy SDK access.
@@ -54,8 +48,6 @@ if ( !function_exists( 'yuki_fs' ) ) {
     yuki_fs();
     // Signal that SDK was initiated.
     do_action( 'yuki_fs_loaded' );
-    // Using pricing table v2
-    yuki_fs()->add_filter( 'freemius_pricing_js_path', 'yuki_custom_pricing_js_path' );
 }
 /**
  * Load lotta-framework

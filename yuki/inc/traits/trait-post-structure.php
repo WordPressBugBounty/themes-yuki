@@ -342,15 +342,20 @@ if ( !trait_exists( 'Yuki_Post_Structure' ) ) {
             $controls = [( new Layers('yuki_' . $id . '_metas') )->hideLabel()->setDefaultValue( $defaults['elements'] )->addLayer( 'byline', __( 'Byline', 'yuki' ), [( new Icons('yuki_' . $id . '_byline_icon') )->setLabel( __( 'Icon', 'yuki' ) )->setDefaultValue( [
                 'value'   => 'fas fa-feather',
                 'library' => 'fa-solid',
-            ] )] )->addLayer( 'published', __( 'Published Date', 'yuki' ), [( new Icons('yuki_' . $id . '_published_icon') )->setLabel( __( 'Icon', 'yuki' ) )->setDefaultValue( [
-                'value'   => 'far fa-calendar',
-                'library' => 'fa-regular',
-            ] ), new Separator(), ( new Text('yuki_' . $id . '_published_format') )->setLabel( __( 'Date Format', 'yuki' ) )->setDescription( sprintf( 
-                // translators: placeholder here means the actual URL.
-                __( 'Date format %s instructions %s.', 'yuki' ),
-                '<a href="https://wordpress.org/support/article/formatting-date-and-time/#format-string-examples" target="_blank">',
-                '</a>'
-             ) )->setDefaultValue( 'M j, Y' )] )->addLayer( 'comments', __( 'Comments', 'yuki' ), [( new Icons('yuki_' . $id . '_comments_icon') )->setLabel( __( 'Icon', 'yuki' ) )->setDefaultValue( [
+            ] )] )->addLayer( 'published', __( 'Published Date', 'yuki' ), [
+                ( new Toggle('yuki_' . $id . '_show_modified_date') )->setLabel( __( 'Show modified date', 'yuki' ) )->closeByDefault(),
+                ( new Icons('yuki_' . $id . '_published_icon') )->setLabel( __( 'Icon', 'yuki' ) )->setDefaultValue( [
+                    'value'   => 'far fa-calendar',
+                    'library' => 'fa-regular',
+                ] ),
+                new Separator(),
+                ( new Text('yuki_' . $id . '_published_format') )->setLabel( __( 'Date Format', 'yuki' ) )->setDescription( sprintf( 
+                    // translators: placeholder here means the actual URL.
+                    __( 'Date format %s instructions %s.', 'yuki' ),
+                    '<a href="https://wordpress.org/support/article/formatting-date-and-time/#format-string-examples" target="_blank">',
+                    '</a>'
+                 ) )->setDefaultValue( 'M j, Y' )
+            ] )->addLayer( 'comments', __( 'Comments', 'yuki' ), [( new Icons('yuki_' . $id . '_comments_icon') )->setLabel( __( 'Icon', 'yuki' ) )->setDefaultValue( [
                 'value'   => 'far fa-comments',
                 'library' => 'fa-regular',
             ] )] )->addLayer( 'views', __( 'Views', 'yuki' ), [( new Icons('yuki_' . $id . '_views_icon') )->setLabel( __( 'Icon', 'yuki' ) )->setDefaultValue( [

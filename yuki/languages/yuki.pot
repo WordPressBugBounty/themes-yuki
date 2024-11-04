@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Yuki 1.3.23\n"
+"Project-Id-Version: Yuki 1.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/yuki\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-10T09:25:10+00:00\n"
+"POT-Creation-Date: 2024-11-04T04:28:26+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: yuki\n"
@@ -347,7 +347,7 @@ msgstr ""
 #: inc/homepage/elements/class-text-element.php:108
 #: inc/traits/trait-post-pagination.php:48
 #: inc/traits/trait-post-structure.php:151
-#: inc/traits/trait-post-structure.php:684
+#: inc/traits/trait-post-structure.php:688
 #: inc/traits/trait-socials-controls.php:82
 #: inc/traits/trait-widgets-controls.php:101
 #: inc/traits/trait-widgets-controls.php:141
@@ -590,7 +590,7 @@ msgstr ""
 #: inc/traits/trait-post-structure.php:203
 #: inc/traits/trait-post-structure.php:282
 #: inc/traits/trait-post-structure.php:478
-#: inc/traits/trait-post-structure.php:619
+#: inc/traits/trait-post-structure.php:623
 #: inc/traits/trait-socials-controls.php:204
 #: inc/traits/trait-socials-controls.php:226
 #: inc/traits/trait-socials-controls.php:244
@@ -625,7 +625,7 @@ msgstr ""
 #: inc/traits/trait-post-structure.php:195
 #: inc/traits/trait-post-structure.php:204
 #: inc/traits/trait-post-structure.php:285
-#: inc/traits/trait-post-structure.php:620
+#: inc/traits/trait-post-structure.php:624
 #: inc/traits/trait-socials-controls.php:205
 #: inc/traits/trait-socials-controls.php:227
 #: inc/traits/trait-socials-controls.php:245
@@ -1052,7 +1052,7 @@ msgstr ""
 #: inc/traits/trait-particles-effect.php:161
 #: inc/traits/trait-particles-effect.php:196
 #: inc/traits/trait-post-structure.php:155
-#: inc/traits/trait-post-structure.php:627
+#: inc/traits/trait-post-structure.php:631
 msgid "Default"
 msgstr ""
 
@@ -1385,10 +1385,10 @@ msgstr ""
 #: inc/homepage/elements/class-features-element.php:192
 #: inc/traits/trait-post-pagination.php:97
 #: inc/traits/trait-post-structure.php:556
-#: inc/traits/trait-post-structure.php:565
-#: inc/traits/trait-post-structure.php:585
-#: inc/traits/trait-post-structure.php:594
-#: inc/traits/trait-post-structure.php:628
+#: inc/traits/trait-post-structure.php:569
+#: inc/traits/trait-post-structure.php:589
+#: inc/traits/trait-post-structure.php:598
+#: inc/traits/trait-post-structure.php:632
 msgid "Icon"
 msgstr ""
 
@@ -1750,7 +1750,7 @@ msgstr ""
 
 #: inc/elements/class-collapsable-menu-element.php:128
 #: inc/elements/class-menu-element.php:268
-#: inc/traits/trait-post-structure.php:633
+#: inc/traits/trait-post-structure.php:637
 msgid "Items Divider"
 msgstr ""
 
@@ -2108,13 +2108,13 @@ msgid "Link (Optional)"
 msgstr ""
 
 #: inc/elements__premium_only/class-datetime-element.php:42
-#: inc/traits/trait-post-structure.php:573
+#: inc/traits/trait-post-structure.php:577
 msgid "Date Format"
 msgstr ""
 
 #. translators: placeholder here means the actual URL.
 #: inc/elements__premium_only/class-datetime-element.php:45
-#: inc/traits/trait-post-structure.php:576
+#: inc/traits/trait-post-structure.php:580
 msgid "Date format %s instructions %s."
 msgstr ""
 
@@ -3141,110 +3141,110 @@ msgstr ""
 msgid "Yuki Theme"
 msgstr ""
 
-#: inc/template-tags.php:561
+#: inc/template-tags.php:566
 msgid "Edit"
 msgstr ""
 
-#: inc/template-tags.php:912
+#: inc/template-tags.php:917
 msgid "Pages:"
 msgstr ""
 
-#: inc/template-tags.php:929
+#: inc/template-tags.php:934
 msgctxt "Shapes"
 msgid "None"
 msgstr ""
 
-#: inc/template-tags.php:933
+#: inc/template-tags.php:938
 msgctxt "Shapes"
 msgid "Tilt"
 msgstr ""
 
-#: inc/template-tags.php:937
+#: inc/template-tags.php:942
 msgctxt "Shapes"
 msgid "Mountains (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:942
+#: inc/template-tags.php:947
 msgctxt "Shapes"
 msgid "Drops  (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:947
+#: inc/template-tags.php:952
 msgctxt "Shapes"
 msgid "Clouds (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:952
+#: inc/template-tags.php:957
 msgctxt "Shapes"
 msgid "Zigzag (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:957
+#: inc/template-tags.php:962
 msgctxt "Shapes"
 msgid "Pyramids (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:962
+#: inc/template-tags.php:967
 msgctxt "Shapes"
 msgid "Triangle (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:967
+#: inc/template-tags.php:972
 msgctxt "Shapes"
 msgid "Triangle Asymmetrical (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:972
+#: inc/template-tags.php:977
 msgctxt "Shapes"
 msgid "Tilt Opacity (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:977
+#: inc/template-tags.php:982
 msgctxt "Shapes"
 msgid "Fan Opacity (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:982
+#: inc/template-tags.php:987
 msgctxt "Shapes"
 msgid "Curve (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:987
+#: inc/template-tags.php:992
 msgctxt "Shapes"
 msgid "Curve Asymmetrical (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:992
+#: inc/template-tags.php:997
 msgctxt "Shapes"
 msgid "Waves (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:997
+#: inc/template-tags.php:1002
 msgctxt "Shapes"
 msgid "Waves Brush (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1002
+#: inc/template-tags.php:1007
 msgctxt "Shapes"
 msgid "Waves Pattern (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1007
+#: inc/template-tags.php:1012
 msgctxt "Shapes"
 msgid "Arrow (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1012
+#: inc/template-tags.php:1017
 msgctxt "Shapes"
 msgid "Split (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1017
+#: inc/template-tags.php:1022
 msgctxt "Shapes"
 msgid "Book (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1976
+#: inc/template-tags.php:1981
 msgid "Upgrade to %sPro Version%s to enable this feature"
 msgstr ""
 
@@ -3657,7 +3657,7 @@ msgstr ""
 #: inc/traits/trait-post-structure.php:291
 #: inc/traits/trait-post-structure.php:383
 #: inc/traits/trait-post-structure.php:485
-#: inc/traits/trait-post-structure.php:655
+#: inc/traits/trait-post-structure.php:659
 msgid "More options in our %sPro Version%s"
 msgstr ""
 
@@ -3725,23 +3725,27 @@ msgstr ""
 msgid "Published Date"
 msgstr ""
 
-#: inc/traits/trait-post-structure.php:583
+#: inc/traits/trait-post-structure.php:565
+msgid "Show modified date"
+msgstr ""
+
+#: inc/traits/trait-post-structure.php:587
 msgid "Comments"
 msgstr ""
 
-#: inc/traits/trait-post-structure.php:592
+#: inc/traits/trait-post-structure.php:596
 msgid "Views"
 msgstr ""
 
-#: inc/traits/trait-post-structure.php:608
+#: inc/traits/trait-post-structure.php:612
 msgid "Meta Typography"
 msgstr ""
 
-#: inc/traits/trait-post-structure.php:613
+#: inc/traits/trait-post-structure.php:617
 msgid "Meta Color"
 msgstr ""
 
-#: inc/traits/trait-post-structure.php:624
+#: inc/traits/trait-post-structure.php:628
 msgid "Items Style"
 msgstr ""
 

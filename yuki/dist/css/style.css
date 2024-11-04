@@ -2088,7 +2088,6 @@ div:not(.is-style-outline) > .wp-block-button__link:not(:disabled):hover,
 }
 .entry-title {
   color: var(--yuki-initial-color);
-  word-break: break-word;
 }
 
 .entry-divider {
@@ -4202,9 +4201,6 @@ body:not(.elementor-page) .gallery-item {
 }
 .flex {
   display: flex;
-}
-.table {
-  display: table;
 }
 .grid {
   display: grid;
