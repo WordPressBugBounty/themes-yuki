@@ -166,13 +166,46 @@ $links = [
                     </div>
 				<?php endforeach; ?>
             </div>
+        </div>
+        <div class="page-sidebar">
+            <div class="page-widgets">
+                <div class="page-widget">
+                    <h3 class="widget-title">
+						<?php esc_html_e( 'Helpful Links', 'yuki' ); ?>
+                    </h3>
+                    <div class="widget-content">
+                        <ul class="links">
+							<?php foreach ( $links as $link ): ?>
+                                <li class="link-item">
+									<?php echo yuki_kses( $link['icon'] ) ?>
+                                    <a href="<?php echo esc_url( $link['url'] ) ?>" target="_blank">
+										<?php echo esc_html( $link['title'] ); ?>
+                                    </a>
+                                </li>
+							<?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+				<?php foreach ( $widgets as $widget ): ?>
+                    <div class="page-widget">
+                        <h3 class="widget-title">
+							<?php echo esc_html( $widget['title'] ); ?>
+                        </h3>
+                        <p class="widget-content">
+							<?php echo esc_html( $widget['content'] ); ?>
+                        </p>
+                        <a class="widget-link yuki-button" href="<?php echo esc_url( $widget['url'] ) ?>">
+							<?php echo yuki_kses( $widget['icon'] ); ?>
+                            <span><?php echo esc_html( $widget['label'] ); ?></span>
+                        </a>
+                    </div>
+				<?php endforeach; ?>
+            </div>
 
             <div class="recommend-plugins">
                 <h2><?php esc_html_e( 'Recommend Plugins', 'yuki' ); ?></h2>
-
 				<?php foreach ( yuki_recommend_plugins() as $slug => $plugin ): ?>
                     <div class="recommend-plugin">
-                        <img src="<?php echo esc_url( $plugin['icon'] ) ?>">
                         <div class="plugin-content">
                             <h4 class="plugin-title">
                                 <a href="<?php echo esc_url( $plugin['home'] ) ?>"
@@ -211,41 +244,6 @@ $links = [
                                 </a>
                             </div>
                         </div>
-                    </div>
-				<?php endforeach; ?>
-            </div>
-        </div>
-        <div class="page-sidebar">
-            <div class="page-widgets">
-                <div class="page-widget">
-                    <h3 class="widget-title">
-						<?php esc_html_e( 'Helpful Links', 'yuki' ); ?>
-                    </h3>
-                    <div class="widget-content">
-                        <ul class="links">
-							<?php foreach ( $links as $link ): ?>
-                                <li class="link-item">
-									<?php echo yuki_kses( $link['icon'] ) ?>
-                                    <a href="<?php echo esc_url( $link['url'] ) ?>" target="_blank">
-										<?php echo esc_html( $link['title'] ); ?>
-                                    </a>
-                                </li>
-							<?php endforeach; ?>
-                        </ul>
-                    </div>
-                </div>
-				<?php foreach ( $widgets as $widget ): ?>
-                    <div class="page-widget">
-                        <h3 class="widget-title">
-							<?php echo esc_html( $widget['title'] ); ?>
-                        </h3>
-                        <p class="widget-content">
-							<?php echo esc_html( $widget['content'] ); ?>
-                        </p>
-                        <a class="widget-link yuki-button" href="<?php echo esc_url( $widget['url'] ) ?>">
-							<?php echo yuki_kses( $widget['icon'] ); ?>
-                            <span><?php echo esc_html( $widget['label'] ); ?></span>
-                        </a>
                     </div>
 				<?php endforeach; ?>
             </div>

@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Yuki 1.4.0\n"
+"Project-Id-Version: Yuki 1.4.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/yuki\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-04T04:28:26+00:00\n"
+"POT-Creation-Date: 2024-12-16T07:33:07+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: yuki\n"
@@ -53,42 +53,42 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: inc/admin.php:15
+#: inc/admin.php:14
 msgid "Plover Kit"
 msgstr ""
 
-#: inc/admin.php:16
+#: inc/admin.php:15
 msgid "Plover kit have pluggable modules that enhance the Gutenberg core blocks and also provide extended features."
 msgstr ""
 
-#: inc/admin.php:21
+#: inc/admin.php:19
 msgid "Kenta Blocks"
 msgstr ""
 
-#: inc/admin.php:22
+#: inc/admin.php:20
 msgid "Kenta Blocks is a set of responsive blocks with powerful options and pre-designed templates library. "
 msgstr ""
 
-#: inc/admin.php:78
-#: inc/admin.php:98
+#: inc/admin.php:76
+#: inc/admin.php:96
 #: inc/extensions/class-reset-extension.php:51
 msgid "You need a higher level of permission."
 msgstr ""
 
-#: inc/admin.php:79
+#: inc/admin.php:77
 #: inc/extensions/class-reset-extension.php:52
 msgid "Sorry, you are not allowed to customize this site."
 msgstr ""
 
-#: inc/admin.php:99
+#: inc/admin.php:97
 msgid "Sorry, you are not allowed to activate plugins on this site."
 msgstr ""
 
-#: inc/admin.php:116
+#: inc/admin.php:114
 msgid "You can not install this plugin."
 msgstr ""
 
-#: inc/admin.php:117
+#: inc/admin.php:115
 msgid "Sorry, you are not allowed to install this plugin."
 msgstr ""
 
@@ -3948,20 +3948,20 @@ msgstr ""
 msgid "Yuki is a modern and highly customizable multipurpose WordPress theme."
 msgstr ""
 
-#: template-parts/admin-welcome.php:171
+#: template-parts/admin-welcome.php:174
+msgid "Helpful Links"
+msgstr ""
+
+#: template-parts/admin-welcome.php:206
 msgid "Recommend Plugins"
 msgstr ""
 
-#: template-parts/admin-welcome.php:201
+#: template-parts/admin-welcome.php:234
 msgid "Install Plugin"
 msgstr ""
 
-#: template-parts/admin-welcome.php:210
+#: template-parts/admin-welcome.php:243
 msgid "Plugin Page"
-msgstr ""
-
-#: template-parts/admin-welcome.php:222
-msgid "Helpful Links"
 msgstr ""
 
 #: template-parts/content-none.php:17

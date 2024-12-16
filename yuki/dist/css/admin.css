@@ -132,7 +132,7 @@
   height: 36px;
 }
 .yuki-admin-page .recommend-plugins {
-  padding: 12px;
+  margin-top: 36px;
 }
 .yuki-admin-page .recommend-plugins .recommend-plugin {
   display: flex;

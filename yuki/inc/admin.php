@@ -11,13 +11,11 @@ if ( ! function_exists( 'yuki_recommend_plugins' ) ) {
 	function yuki_recommend_plugins() {
 		return apply_filters( 'yuki_recommend_plugins', array(
 			'plover-kit'   => array(
-				'icon'  => yuki_image_url( 'recommend-plugins/plover-kit.png' ),
 				'title' => __( 'Plover Kit', 'yuki' ),
 				'desc'  => __( 'Plover kit have pluggable modules that enhance the Gutenberg core blocks and also provide extended features.', 'yuki' ),
 				'home'  => 'https://wpplover.com/plugins/plover-kit/',
 			),
 			'kenta-blocks' => array(
-				'icon'  => yuki_image_url( 'recommend-plugins/kenta-blocks.png' ),
 				'title' => __( 'Kenta Blocks', 'yuki' ),
 				'desc'  => __( 'Kenta Blocks is a set of responsive blocks with powerful options and pre-designed templates library. ', 'yuki' ),
 				'home'  => 'https://kentatheme.com/blocks/',

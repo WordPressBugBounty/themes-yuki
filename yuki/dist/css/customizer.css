@@ -55,6 +55,14 @@
   border-top: 1px solid #dcdcde;
 }
 
+#accordion-section-yuki_single_post .accordion-section-title,
+#accordion-section-yuki_pages .accordion-section-title,
+#accordion-panel-woocommerce .accordion-section-title,
+#accordion-section-yuki_store .accordion-section-title {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
 #accordion-section-yuki_single_post .accordion-section-title::before,
 #accordion-section-yuki_pages .accordion-section-title::before,
 #accordion-panel-woocommerce .accordion-section-title::before,
