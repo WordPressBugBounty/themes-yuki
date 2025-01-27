@@ -1,15 +1,15 @@
-# Copyright (C) 2024 WP Moose
+# Copyright (C) 2025 WP Moose
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Yuki 1.4.1\n"
+"Project-Id-Version: Yuki 1.4.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/yuki\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-16T07:33:07+00:00\n"
+"POT-Creation-Date: 2025-01-27T01:34:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: yuki\n"
@@ -143,7 +143,7 @@ msgstr ""
 #: inc/homepage/elements/class-hero-element.php:176
 #: inc/homepage/elements/class-text-element.php:80
 #: inc/homepage/elements/class-text-element.php:99
-#: inc/traits/trait-article-controls.php:175
+#: inc/traits/trait-article-controls.php:177
 #: inc/traits/trait-post-card.php:84
 #: inc/traits/trait-post-card.php:106
 #: inc/traits/trait-widgets-controls.php:189
@@ -168,7 +168,7 @@ msgstr ""
 #: inc/customizer/class-archive-section.php:303
 #: inc/customizer/class-content-section.php:422
 #: inc/customizer/class-global-section.php:454
-#: inc/customizer/class-single-post-section.php:164
+#: inc/customizer/class-single-post-section.php:166
 #: inc/elements__premium_only/class-contacts-element.php:197
 #: inc/elements__premium_only/class-html-element.php:86
 #: inc/homepage/class-homepage-column.php:215
@@ -397,7 +397,7 @@ msgid "Advanced"
 msgstr ""
 
 #: inc/builder/class-header-builder.php:35
-#: inc/traits/trait-article-controls.php:139
+#: inc/traits/trait-article-controls.php:140
 msgid "Header Elements"
 msgstr ""
 
@@ -558,7 +558,7 @@ msgstr ""
 #: inc/customizer/class-content-section.php:369
 #: inc/customizer/class-global-section.php:429
 #: inc/customizer/class-global-section.php:439
-#: inc/customizer/class-single-post-section.php:133
+#: inc/customizer/class-single-post-section.php:135
 #: inc/elements/class-collapsable-menu-element.php:122
 #: inc/elements/class-copyright-element.php:65
 #: inc/elements/class-logo-element.php:138
@@ -603,7 +603,7 @@ msgstr ""
 #: inc/customizer/class-content-section.php:370
 #: inc/customizer/class-global-section.php:430
 #: inc/customizer/class-global-section.php:440
-#: inc/customizer/class-single-post-section.php:134
+#: inc/customizer/class-single-post-section.php:136
 #: inc/elements/class-collapsable-menu-element.php:123
 #: inc/elements/class-copyright-element.php:66
 #: inc/elements/class-logo-element.php:140
@@ -674,7 +674,7 @@ msgstr ""
 #: inc/homepage/elements/class-hero-element.php:175
 #: inc/homepage/elements/class-text-element.php:76
 #: inc/homepage/elements/class-text-element.php:95
-#: inc/traits/trait-article-controls.php:171
+#: inc/traits/trait-article-controls.php:173
 #: inc/traits/trait-post-card.php:80
 #: inc/traits/trait-widgets-controls.php:185
 msgid "Left"
@@ -691,7 +691,7 @@ msgstr ""
 #: inc/homepage/elements/class-hero-element.php:177
 #: inc/homepage/elements/class-text-element.php:84
 #: inc/homepage/elements/class-text-element.php:103
-#: inc/traits/trait-article-controls.php:179
+#: inc/traits/trait-article-controls.php:181
 #: inc/traits/trait-post-card.php:88
 #: inc/traits/trait-widgets-controls.php:193
 msgid "Right"
@@ -958,7 +958,7 @@ msgid "Overlay Opacity"
 msgstr ""
 
 #: inc/customizer/class-archive-section.php:393
-#: inc/traits/trait-article-controls.php:215
+#: inc/traits/trait-article-controls.php:219
 msgid "Header Overlay"
 msgstr ""
 
@@ -1048,7 +1048,7 @@ msgstr ""
 #: inc/extensions__premium_only/class-custom-fonts-extension.php:57
 #: inc/extensions__premium_only/class-particles-premium-extension.php:95
 #: inc/extensions__premium_only/class-particles-premium-extension.php:108
-#: inc/traits/trait-article-controls.php:243
+#: inc/traits/trait-article-controls.php:247
 #: inc/traits/trait-particles-effect.php:161
 #: inc/traits/trait-particles-effect.php:196
 #: inc/traits/trait-post-structure.php:155
@@ -1230,7 +1230,7 @@ msgid "More color options in %sPro Version%s"
 msgstr ""
 
 #: inc/customizer/class-content-section.php:367
-#: inc/customizer/class-single-post-section.php:128
+#: inc/customizer/class-single-post-section.php:130
 #: inc/elements/class-menu-element.php:122
 #: inc/elements/class-menu-element.php:239
 #: inc/elements__premium_only/class-contacts-element.php:186
@@ -1269,7 +1269,7 @@ msgid "Border"
 msgstr ""
 
 #: inc/customizer/class-content-section.php:429
-#: inc/customizer/class-single-post-section.php:174
+#: inc/customizer/class-single-post-section.php:176
 #: inc/homepage/class-homepage-column.php:203
 #: inc/homepage/class-homepage-row.php:211
 #: inc/traits/trait-socials-controls.php:257
@@ -1481,7 +1481,7 @@ msgstr ""
 #: inc/customizer/class-global-section.php:477
 #: inc/homepage/class-homepage-column.php:177
 #: inc/homepage/class-homepage-row.php:185
-#: inc/traits/trait-article-controls.php:258
+#: inc/traits/trait-article-controls.php:262
 #: inc/traits/trait-button-controls.php:132
 #: inc/traits/trait-card-element-controls.php:100
 #: inc/traits/trait-post-structure.php:370
@@ -1593,13 +1593,13 @@ msgstr ""
 msgid "Page Header"
 msgstr ""
 
-#: inc/customizer/class-pages-section.php:75
-#: inc/customizer/class-single-post-section.php:77
+#: inc/customizer/class-pages-section.php:76
+#: inc/customizer/class-single-post-section.php:79
 msgid "Featured Image"
 msgstr ""
 
-#: inc/customizer/class-pages-section.php:83
-#: inc/customizer/class-single-post-section.php:83
+#: inc/customizer/class-pages-section.php:84
+#: inc/customizer/class-single-post-section.php:85
 msgid "Share Box"
 msgstr ""
 
@@ -1607,24 +1607,24 @@ msgstr ""
 msgid "Post Header"
 msgstr ""
 
-#: inc/customizer/class-single-post-section.php:113
+#: inc/customizer/class-single-post-section.php:115
 msgid "Posts Navigation"
 msgstr ""
 
-#: inc/customizer/class-single-post-section.php:138
-#: inc/customizer/class-single-post-section.php:145
+#: inc/customizer/class-single-post-section.php:140
+#: inc/customizer/class-single-post-section.php:147
 msgid "Prev Icon"
 msgstr ""
 
-#: inc/customizer/class-single-post-section.php:153
+#: inc/customizer/class-single-post-section.php:155
 msgid "Border Top"
 msgstr ""
 
-#: inc/customizer/class-single-post-section.php:158
+#: inc/customizer/class-single-post-section.php:160
 msgid "Border Bottom"
 msgstr ""
 
-#: inc/customizer/class-single-post-section.php:184
+#: inc/customizer/class-single-post-section.php:186
 msgid "Thumbnail Radius"
 msgstr ""
 
@@ -1796,9 +1796,9 @@ msgstr ""
 #: inc/homepage/elements/class-features-element.php:120
 #: inc/homepage/elements/class-heading-element.php:123
 #: inc/homepage/elements/class-text-element.php:128
-#: inc/traits/trait-article-controls.php:185
-#: inc/traits/trait-article-controls.php:225
-#: inc/traits/trait-article-controls.php:282
+#: inc/traits/trait-article-controls.php:187
+#: inc/traits/trait-article-controls.php:229
+#: inc/traits/trait-article-controls.php:286
 msgid "Spacing"
 msgstr ""
 
@@ -1837,7 +1837,7 @@ msgstr ""
 
 #: inc/elements/class-logo-element.php:100
 #: inc/homepage/elements/class-hero-element.php:134
-#: inc/traits/trait-article-controls.php:164
+#: inc/traits/trait-article-controls.php:166
 #: inc/traits/trait-post-card.php:72
 #: inc/traits/trait-widgets-controls.php:177
 msgid "Content Alignment"
@@ -2098,7 +2098,7 @@ msgstr ""
 #: inc/homepage/elements/class-heading-element.php:47
 #: inc/homepage/elements/class-heading-element.php:74
 #: inc/homepage/elements/class-hero-element.php:106
-#: inc/traits/trait-article-controls.php:141
+#: inc/traits/trait-article-controls.php:142
 #: inc/traits/trait-post-structure.php:98
 msgid "Title"
 msgstr ""
@@ -2153,7 +2153,7 @@ msgid "Upload Image"
 msgstr ""
 
 #: inc/elements__premium_only/class-image-element.php:37
-#: inc/traits/trait-article-controls.php:239
+#: inc/traits/trait-article-controls.php:243
 msgid "Image Width"
 msgstr ""
 
@@ -2587,7 +2587,7 @@ msgstr ""
 #: inc/homepage/class-homepage-row.php:199
 #: inc/homepage/elements/class-posts-slider-element.php:372
 #: inc/homepage/elements/class-posts-slider-element.php:480
-#: inc/traits/trait-article-controls.php:270
+#: inc/traits/trait-article-controls.php:274
 #: inc/traits/trait-button-controls.php:155
 #: inc/traits/trait-post-card.php:241
 #: inc/traits/trait-post-structure.php:376
@@ -2820,7 +2820,7 @@ msgstr ""
 
 #: inc/homepage/elements/class-magazine-element.php:152
 #: inc/homepage/elements/class-posts-slider-element.php:200
-#: inc/traits/trait-article-controls.php:303
+#: inc/traits/trait-article-controls.php:307
 #: inc/traits/trait-post-structure.php:338
 msgid "Image Size"
 msgstr ""
@@ -3145,106 +3145,106 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: inc/template-tags.php:917
+#: inc/template-tags.php:918
 msgid "Pages:"
 msgstr ""
 
-#: inc/template-tags.php:934
+#: inc/template-tags.php:935
 msgctxt "Shapes"
 msgid "None"
 msgstr ""
 
-#: inc/template-tags.php:938
+#: inc/template-tags.php:939
 msgctxt "Shapes"
 msgid "Tilt"
 msgstr ""
 
-#: inc/template-tags.php:942
+#: inc/template-tags.php:943
 msgctxt "Shapes"
 msgid "Mountains (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:947
+#: inc/template-tags.php:948
 msgctxt "Shapes"
 msgid "Drops  (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:952
+#: inc/template-tags.php:953
 msgctxt "Shapes"
 msgid "Clouds (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:957
+#: inc/template-tags.php:958
 msgctxt "Shapes"
 msgid "Zigzag (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:962
+#: inc/template-tags.php:963
 msgctxt "Shapes"
 msgid "Pyramids (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:967
+#: inc/template-tags.php:968
 msgctxt "Shapes"
 msgid "Triangle (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:972
+#: inc/template-tags.php:973
 msgctxt "Shapes"
 msgid "Triangle Asymmetrical (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:977
+#: inc/template-tags.php:978
 msgctxt "Shapes"
 msgid "Tilt Opacity (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:982
+#: inc/template-tags.php:983
 msgctxt "Shapes"
 msgid "Fan Opacity (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:987
+#: inc/template-tags.php:988
 msgctxt "Shapes"
 msgid "Curve (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:992
+#: inc/template-tags.php:993
 msgctxt "Shapes"
 msgid "Curve Asymmetrical (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:997
+#: inc/template-tags.php:998
 msgctxt "Shapes"
 msgid "Waves (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1002
+#: inc/template-tags.php:1003
 msgctxt "Shapes"
 msgid "Waves Brush (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1007
+#: inc/template-tags.php:1008
 msgctxt "Shapes"
 msgid "Waves Pattern (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1012
+#: inc/template-tags.php:1013
 msgctxt "Shapes"
 msgid "Arrow (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1017
+#: inc/template-tags.php:1018
 msgctxt "Shapes"
 msgid "Split (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1022
+#: inc/template-tags.php:1023
 msgctxt "Shapes"
 msgid "Book (Pro)"
 msgstr ""
 
-#: inc/template-tags.php:1981
+#: inc/template-tags.php:1982
 msgid "Upgrade to %sPro Version%s to enable this feature"
 msgstr ""
 
@@ -3317,51 +3317,57 @@ msgstr ""
 msgid "Content Max Width"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:150
+#: inc/traits/trait-article-controls.php:151
+#: inc/traits/trait-post-structure.php:110
+#: inc/traits/trait-post-structure.php:429
+msgid "Excerpt"
+msgstr ""
+
+#: inc/traits/trait-article-controls.php:152
 #: inc/traits/trait-post-structure.php:116
 msgid "Metas"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:151
+#: inc/traits/trait-article-controls.php:153
 #: inc/traits/trait-post-structure.php:101
 msgid "Categories"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:161
+#: inc/traits/trait-article-controls.php:163
 #: inc/traits/trait-post-structure.php:104
 msgid "Tags"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:209
+#: inc/traits/trait-article-controls.php:211
 msgid "Header Color Override"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:211
+#: inc/traits/trait-article-controls.php:215
 msgid "Override"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:244
+#: inc/traits/trait-article-controls.php:248
 msgid "Wide"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:245
+#: inc/traits/trait-article-controls.php:249
 msgid "Full"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:249
+#: inc/traits/trait-article-controls.php:253
 msgid "Image Height"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:298
+#: inc/traits/trait-article-controls.php:302
 msgid "Image Fallback"
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:299
+#: inc/traits/trait-article-controls.php:303
 #: inc/traits/trait-post-structure.php:355
 msgid "If the current post does not have a featured image, then this image will be displayed."
 msgstr ""
 
-#: inc/traits/trait-article-controls.php:309
+#: inc/traits/trait-article-controls.php:313
 msgid "Image Style"
 msgstr ""
 
@@ -3637,11 +3643,6 @@ msgstr ""
 
 #: inc/traits/trait-post-structure.php:107
 msgid "Thumbnail"
-msgstr ""
-
-#: inc/traits/trait-post-structure.php:110
-#: inc/traits/trait-post-structure.php:429
-msgid "Excerpt"
 msgstr ""
 
 #: inc/traits/trait-post-structure.php:113

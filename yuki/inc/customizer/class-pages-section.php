@@ -63,7 +63,8 @@ if ( ! class_exists( 'Yuki_Pages_Section' ) ) {
 					->setLabel( __( 'Page Header', 'yuki' ) )
 					->enableSwitch()
 					->setControls( $this->getHeaderControls( 'page', [
-						'metas' => [
+						'selector' => '.yuki-article-header',
+						'metas'    => [
 							'elements' => [
 								[ 'id' => 'published', 'visible' => true ]
 							],

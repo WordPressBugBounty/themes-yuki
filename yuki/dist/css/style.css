@@ -2090,6 +2090,10 @@ div:not(.is-style-outline) > .wp-block-button__link:not(:disabled):hover,
   color: var(--yuki-initial-color);
 }
 
+.entry-excerpt {
+  color: var(--yuki-initial-color);
+}
+
 .entry-divider {
   border-bottom: var(--entry-divider, 1px solid var(--yuki-base-200));
   margin: calc(var(--card-content-spacing) / 2) 0;
@@ -2372,6 +2376,10 @@ nav.woocommerce-pagination > .page-numbers > li:last-child {
 }
 .yuki-article-header-background .yuki-article-header .entry-metas {
   --yuki-meta-link-initial-color: var(--yuki-article-header-override, #fff);
+}
+.yuki-article-header-background .yuki-article-header .entry-excerpt {
+  --yuki-initial-color: var(--yuki-article-header-override, #fff);
+  --yuki-link-initial-color: var(--yuki-article-header-override, #fff);
 }
 .yuki-article-header-background .article-featured-image {
   position: absolute;

@@ -293,7 +293,8 @@ function yuki_dynamic_css() {
                 'title',
                 'metas',
                 'categories',
-                'tags'
+                'tags',
+                'excerpt'
             ],
             'selector'  => '.yuki-article-header',
         ],
@@ -303,7 +304,8 @@ function yuki_dynamic_css() {
                 'title',
                 'metas',
                 'categories',
-                'tags'
+                'tags',
+                'excerpt'
             ],
             'selector'  => '.yuki-article-header',
         ],

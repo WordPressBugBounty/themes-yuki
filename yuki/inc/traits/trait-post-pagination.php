@@ -81,7 +81,7 @@ if ( !trait_exists( 'Yuki_Post_Pagination' ) ) {
                 ] )->setControls( [new Separator(), yuki_upsell_info_control( __( 'Load More & Infinite Scroll is available in our %sPro Version%s', 'yuki' ) )] );
             }
             $controls[] = new Separator();
-            $controls[] = ( new ImageRadio($prefix . 'pagination_alignment') )->setLabel( __( 'Alignment', 'yuki' ) )->bindSelectiveRefresh( 'yuki-global-selective-css' )->inlineChoices()->setDefaultValue( 'flex-start' )->setChoices( [
+            $controls[] = ( new ImageRadio($prefix . 'pagination_alignment') )->setLabel( __( 'Alignment', 'yuki' ) )->inlineChoices()->setDefaultValue( 'flex-start' )->setChoices( [
                 'flex-start' => [
                     'src' => yuki_image( 'text-left' ),
                 ],
@@ -96,7 +96,7 @@ if ( !trait_exists( 'Yuki_Post_Pagination' ) ) {
         }
 
         protected function getPaginationStyleControls( $prefix = '', $defaults = [] ) {
-            $controls = [( new Typography($prefix . 'pagination_typography') )->setLabel( __( 'Typography', 'yuki' ) )->bindSelectiveRefresh( 'yuki-global-selective-css' )->setDefaultValue( [
+            $controls = [( new Typography($prefix . 'pagination_typography') )->setLabel( __( 'Typography', 'yuki' ) )->setDefaultValue( [
                 'family'     => 'inherit',
                 'fontSize'   => '0.875rem',
                 'variant'    => '400',

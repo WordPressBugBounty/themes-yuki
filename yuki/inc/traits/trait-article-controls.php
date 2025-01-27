@@ -130,8 +130,9 @@ if ( ! trait_exists( 'Yuki_Article_Controls' ) ) {
 			] );
 
 			$layer_defaults = array(
-				'selective-css' => $defaults['selective-css'],
-				'selector'      => $defaults['selector'],
+				'selective-refresh' => [ null ],
+				'selective-css'     => $defaults['selective-css'],
+				'selector'          => $defaults['selector'],
 			);
 
 			return [
@@ -147,6 +148,7 @@ if ( ! trait_exists( 'Yuki_Article_Controls' ) ) {
 							'lineHeight' => '1.25'
 						]
 					] ) ) )
+					->addLayer( 'excerpt', __( 'Excerpt', 'yuki' ), $this->getExcerptControls( $type, $layer_defaults ) )
 					->addLayer( 'metas', __( 'Metas', 'yuki' ), $this->getMetasControls( $type, array_merge( $layer_defaults, $defaults['metas'] ) ) )
 					->addLayer( 'categories', __( 'Categories', 'yuki' ), $this->getTaxonomyControls( $type, '_cats', array_merge( $layer_defaults, [
 						'style'      => 'badge',
@@ -163,7 +165,7 @@ if ( ! trait_exists( 'Yuki_Article_Controls' ) ) {
 				( new ImageRadio( 'yuki_' . $type . '_header_alignment' ) )
 					->setLabel( __( 'Content Alignment', 'yuki' ) )
 					->setDefaultValue( 'center' )
-					->bindSelectiveRefresh( 'yuki-global-selective-css' )
+					->asyncCss( $defaults['selector'], [ 'text-align' => 'value' ] )
 					->inlineChoices()
 					->setChoices( [
 						'left'   => [
@@ -183,8 +185,8 @@ if ( ! trait_exists( 'Yuki_Article_Controls' ) ) {
 				( new Separator() ),
 				( new Spacing( 'yuki_' . $type . '_header_spacing' ) )
 					->setLabel( __( 'Spacing', 'yuki' ) )
-					->bindSelectiveRefresh( 'yuki-global-selective-css' )
 					->setDisabled( [ 'left', 'right' ] )
+					->asyncCss( $defaults['selector'], AsyncCss::dimensions( 'padding' ) )
 					->setDefaultValue( [
 						'top'    => '48px',
 						'right'  => '0px',
@@ -207,13 +209,15 @@ if ( ! trait_exists( 'Yuki_Article_Controls' ) ) {
 			$behind_controls     = [
 				( new ColorPicker( 'yuki_' . $type . '_featured_image_elements_override' ) )
 					->setLabel( __( 'Header Color Override', 'yuki' ) )
-					->bindSelectiveRefresh( 'yuki-global-selective-css' )
+					->asyncColors( '.yuki-article-header-background', [
+						'override' => '--yuki-article-header-override',
+					] )
 					->addColor( 'override', __( 'Override', 'yuki' ), '#eeeeee' )
 				,
 				( new Separator() ),
 				( new Background( 'yuki_' . $type . '_featured_image_background_overlay' ) )
 					->setLabel( __( 'Header Overlay', 'yuki' ) )
-					->bindSelectiveRefresh( 'yuki-global-selective-css' )
+					->asyncCss( '.yuki-article-header-background::after', AsyncCss::background() )
 					->setDefaultValue( [
 						'type'     => 'gradient',
 						'gradient' => 'linear-gradient(180deg,rgba(50,65,84,0.26) 0%,rgba(50,65,84,0.73) 100%)',
@@ -223,7 +227,7 @@ if ( ! trait_exists( 'Yuki_Article_Controls' ) ) {
 				( new Separator() ),
 				( new Spacing( 'yuki_' . $type . '_featured_image_background_spacing' ) )
 					->setLabel( __( 'Spacing', 'yuki' ) )
-					->bindSelectiveRefresh( 'yuki-global-selective-css' )
+					->asyncCss( '.yuki-article-header-background', AsyncCss::dimensions( 'padding' ) )
 					->enableResponsive()
 					->setDefaultValue( [
 						'top'    => '68px',

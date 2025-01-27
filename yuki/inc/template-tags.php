@@ -629,7 +629,7 @@ if ( !function_exists( 'yuki_post_elements_css' ) ) {
             // excerpt
             if ( $element === 'excerpt' ) {
                 $css["{$scope_selector} .entry-excerpt"] = array_merge( Css::typography( $options->get( 'yuki_' . $id . '_excerpt_typography', $settings ) ), Css::colors( $options->get( 'yuki_' . $id . '_excerpt_color', $settings ), [
-                    'initial'      => 'color',
+                    'initial'      => '--yuki-initial-color',
                     'link-initial' => '--yuki-link-initial-color',
                     'link-hover'   => '--yuki-link-hover-color',
                 ] ) );
@@ -774,8 +774,9 @@ if ( !function_exists( 'yuki_show_article_header' ) ) {
                 $header_elements,
                 CZ::layers( "{$prefix}_metas" ),
                 [
-                    'title_link' => false,
-                    'title_tag'  => CZ::get( "{$prefix}_title_tag" ),
+                    'title_link'   => false,
+                    'title_tag'    => CZ::get( "{$prefix}_title_tag" ),
+                    'excerpt_type' => CZ::get( "{$prefix}_excerpt_type" ),
                 ]
             );
             ?>

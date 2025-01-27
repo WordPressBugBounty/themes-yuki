@@ -70,7 +70,9 @@ if ( ! class_exists( 'Yuki_Single_Post_Section' ) ) {
 				( new Section( 'yuki_post_header' ) )
 					->setLabel( __( 'Post Header', 'yuki' ) )
 					->enableSwitch()
-					->setControls( $this->getHeaderControls( 'post' ) )
+					->setControls( $this->getHeaderControls( 'post', [
+						'selector' => '.yuki-article-header'
+					] ) )
 				,
 
 				( new Section( 'yuki_post_featured_image' ) )
