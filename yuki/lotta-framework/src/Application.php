@@ -6,7 +6,7 @@ use LottaFramework\Container\Container;
 
 class Application extends Container {
 
-	const VERSION = '2.0.20';
+	const VERSION = '2.1.0';
 
 	/**
 	 * Application id

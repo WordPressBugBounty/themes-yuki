@@ -128,12 +128,18 @@
          * The check of `fs_find_direct_caller_plugin_file` determines that this file was indeed included by a different plugin than the main plugin.
          */
         if ( DIRECTORY_SEPARATOR . $this_sdk_relative_path === $fs_root_path && function_exists( 'fs_find_direct_caller_plugin_file' ) ) {
-            $original_plugin_dir_name = dirname( fs_find_direct_caller_plugin_file( $file_path ) );
+            $direct_caller_plugin_file = fs_find_direct_caller_plugin_file( $file_path );
 
-            // Remove everything before the original plugin directory name.
-            $this_sdk_relative_path = substr( $this_sdk_relative_path, strpos( $this_sdk_relative_path, $original_plugin_dir_name ) );
+            $original_plugin_dir_name = ! empty( $direct_caller_plugin_file ) ?
+                dirname( $direct_caller_plugin_file ) :
+                null;
 
-            unset( $original_plugin_dir_name );
+            if ( ! empty( $direct_caller_plugin_file ) ) {
+                // Remove everything before the original plugin directory name.
+                $this_sdk_relative_path = substr( $this_sdk_relative_path, strpos( $this_sdk_relative_path, $original_plugin_dir_name ) );
+
+                unset( $original_plugin_dir_name );
+            }
         }
     }
 

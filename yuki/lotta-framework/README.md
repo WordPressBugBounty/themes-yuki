@@ -2,6 +2,19 @@
 
 ## Changelog
 
+## v2.1.0
+
+* Add: New query tags control
+* Fix: Editor control style error
+
+## v2.0.22
+
+* Ref: Cache posts query result to improve performance
+
+## v2.0.21
+
+* Ref: Update google-fonts list
+
 ## v2.0.20
 
 * Ref: Update fontawesome icons to the latest version

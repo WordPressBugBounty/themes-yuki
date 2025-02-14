@@ -1450,7 +1450,7 @@ if ( !function_exists( 'yuki_show_share_box' ) ) {
         ?>>
 				<?php 
         foreach ( $socials as $social ) {
-            if ( isset( $social['share'] ) && !empty( $social['share'] ) ) {
+            if ( !empty( $social['share'] ) ) {
                 $home_url = Utils::encode_uri_component( get_the_permalink() );
                 $share_url = str_replace( '{url}', $home_url, str_replace( '{text}', Utils::encode_uri_component( get_the_title() ), $social['share'] ) );
                 ?>

@@ -9,7 +9,7 @@
  */
 if ( !defined( 'YUKI_VERSION' ) ) {
     // Replace the version number of the theme on each release.
-    define( 'YUKI_VERSION', '1.4.2' );
+    define( 'YUKI_VERSION', '1.4.4' );
 }
 if ( !defined( 'YUKI_WOOCOMMERCE_ACTIVE' ) ) {
     // Used to check whether WooCommerce plugin is activated

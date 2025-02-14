@@ -7,10 +7,10 @@
  */
 use LottaFramework\Customizer\Controls\Condition;
 use LottaFramework\Customizer\Controls\Number;
+use LottaFramework\Customizer\Controls\QueryTags;
 use LottaFramework\Customizer\Controls\Radio;
 use LottaFramework\Customizer\Controls\Select;
 use LottaFramework\Customizer\Controls\Separator;
-use LottaFramework\Customizer\Controls\Tags;
 use LottaFramework\Customizer\Controls\Toggle;
 use LottaFramework\Facades\Query;
 if ( !defined( 'ABSPATH' ) ) {
@@ -57,7 +57,10 @@ if ( !trait_exists( 'Yuki_Post_Query' ) ) {
             foreach ( $tax_filters as $post_type => $filters ) {
                 $controls = [];
                 foreach ( $filters as $slug => $title ) {
-                    $controls[] = ( new Tags('taxonomy_' . $slug) )->setLabel( $title )->enforceWhitelist()->setDefaultValue( [] )->setChoices( Query::termsByTaxonomy( $slug ) );
+                    $controls[] = ( new QueryTags('taxonomy_' . $slug) )->setLabel( $title )->setQuey( [
+                        'type' => 'taxonomy',
+                        'slug' => $slug,
+                    ] )->setDefaultValue( [] );
                 }
                 $tax_filters_controls[] = ( new Condition() )->setCondition( [
                     'source'    => $post_type,
@@ -79,7 +82,9 @@ if ( !trait_exists( 'Yuki_Post_Query' ) ) {
                 new Separator(),
                 ( new Condition() )->setCondition( [
                     'selection' => 'dynamic',
-                ] )->setControls( [( new Number('offset') )->setLabel( __( 'Offset', 'yuki' ) )->setMin( 0 )->setMax( 99999 )->setDefaultValue( 0 ), new Separator(), ( new Tags('author') )->setLabel( __( 'Author', 'yuki' ) )->setChoices( Query::users() )->enforceWhitelist()->setDefaultValue( [] )] )->setReverseControls( $post_manual_controls )
+                ] )->setControls( [( new Number('offset') )->setLabel( __( 'Offset', 'yuki' ) )->setMin( 0 )->setMax( 99999 )->setDefaultValue( 0 ), new Separator(), ( new QueryTags('author') )->setLabel( __( 'Author', 'yuki' ) )->setQuey( [
+                    'type' => 'user',
+                ] )->setDefaultValue( [] )] )->setReverseControls( $post_manual_controls )
             ], $tax_filters_controls, $post_exclude_controls );
         }
 

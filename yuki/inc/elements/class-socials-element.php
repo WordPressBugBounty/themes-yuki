@@ -127,7 +127,7 @@ if ( ! class_exists( 'Yuki_Socials_Element' ) ) {
 					'yuki-socials-' . $fill => $shape !== 'none',
 				] ); ?>">
 					<?php foreach ( $socials as $social ) { ?>
-						<?php if ( ! isset( $social['url'] ) || empty( $social['url'] ) ) {
+						<?php if ( empty( $social['url'] ) ) {
 							continue;
 						} ?>
                         <a <?php $this->print_attribute_string( 'social-link' ); ?>

@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Yuki 1.4.2\n"
+"Project-Id-Version: Yuki 1.4.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/yuki\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-27T01:34:31+00:00\n"
+"POT-Creation-Date: 2025-02-14T14:26:18+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: yuki\n"
@@ -2183,7 +2183,7 @@ msgid "Tag"
 msgstr ""
 
 #: inc/extensions/class-related-posts-extension.php:55
-#: inc/traits/trait-post-query.php:146
+#: inc/traits/trait-post-query.php:141
 msgid "Author"
 msgstr ""
 
@@ -3609,35 +3609,35 @@ msgstr ""
 msgid "Manual selection is only available in our %sPro Version%s"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:62
+#: inc/traits/trait-post-query.php:60
 msgid "Exclude"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:72
+#: inc/traits/trait-post-query.php:69
 msgid "Select"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:109
+#: inc/traits/trait-post-query.php:104
 msgid "Dynamic"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:110
+#: inc/traits/trait-post-query.php:105
 msgid "Manual"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:119
+#: inc/traits/trait-post-query.php:114
 msgid "Source"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:124
+#: inc/traits/trait-post-query.php:119
 msgid "Selection"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:131
+#: inc/traits/trait-post-query.php:126
 msgid "Exclude w/o Thumbnail"
 msgstr ""
 
-#: inc/traits/trait-post-query.php:139
+#: inc/traits/trait-post-query.php:134
 msgid "Offset"
 msgstr ""
 
