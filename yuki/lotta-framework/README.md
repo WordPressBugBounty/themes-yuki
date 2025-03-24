@@ -2,6 +2,10 @@
 
 ## Changelog
 
+## v2.1.1
+
+* Fix: Gradient color picker error under new WP version
+
 ## v2.1.0
 
 * Add: New query tags control

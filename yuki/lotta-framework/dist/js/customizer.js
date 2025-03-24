@@ -29398,7 +29398,7 @@ object-assign
                 className: "lotta-gradient-picker",
                 children: [ (0, react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_0__.GradientPicker, {
                     className: "wp-gradient-picker",
-                    value: gradient,
+                    value: gradient || null,
                     gradients: [],
                     onChange: function onChange(currentGradient) {
                         _onChange(currentGradient);
