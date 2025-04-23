@@ -9,7 +9,7 @@
  */
 if ( !defined( 'YUKI_VERSION' ) ) {
     // Replace the version number of the theme on each release.
-    define( 'YUKI_VERSION', '1.4.6' );
+    define( 'YUKI_VERSION', '1.4.7' );
 }
 if ( !defined( 'YUKI_WOOCOMMERCE_ACTIVE' ) ) {
     // Used to check whether WooCommerce plugin is activated
@@ -139,7 +139,8 @@ add_action( 'init', function () {
      * After lotta-framework boostrap
      */
     do_action( 'yuki_after_lotta_framework_bootstrap' );
-} );
+}, 0 );
+// The widgets_init hook is fired as part of the init hook with a priority of 1, We have to trigger before it
 // support locally hosted google-fonts and we should do this after all options are loaded
 if ( yuki_app( 'CZ' )->checked( 'yuki_use_local_fonts' ) ) {
     yuki_app()->support( 'local_webfonts' );

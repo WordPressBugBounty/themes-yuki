@@ -329,12 +329,12 @@ function yuki_add_post_navigation() {
     if ( has_post_thumbnail( ( $prev_post ? $prev_post->ID : null ) ) ) {
         $prev_thumbnail = get_the_post_thumbnail( ( $prev_post ? $prev_post->ID : null ), 'medium' );
     }
-    $prev_thumbnail = '<div class="prev-post-thumbnail post-thumbnail">' . $prev_thumbnail . IconsManager::render( CZ::get( 'yuki_post_navigation_prev_icon' ) ) . '</div>';
+    $prev_thumbnail = ( $prev_thumbnail ? '<div class="prev-post-thumbnail post-thumbnail">' . $prev_thumbnail . IconsManager::render( CZ::get( 'yuki_post_navigation_prev_icon' ) ) . '</div>' : '' );
     $next_post = get_next_post();
     if ( has_post_thumbnail( ( $next_post ? $next_post->ID : null ) ) ) {
         $next_thumbnail = get_the_post_thumbnail( ( $next_post ? $next_post->ID : null ), 'medium' );
     }
-    $next_thumbnail = '<div class="next-post-thumbnail post-thumbnail">' . $next_thumbnail . IconsManager::render( CZ::get( 'yuki_post_navigation_next_icon' ) ) . '</div>';
+    $next_thumbnail = ( $next_thumbnail ? '<div class="next-post-thumbnail post-thumbnail">' . $next_thumbnail . IconsManager::render( CZ::get( 'yuki_post_navigation_next_icon' ) ) . '</div>' : '' );
     the_post_navigation( [
         'prev_text'          => $prev_thumbnail . '<div class="item-wrap pl-gutter lg:pr-2"><span class="item-label">' . esc_html__( 'Previous Post', 'yuki' ) . '</span><span class="item-title">%title</span></div>',
         'next_text'          => $next_thumbnail . '<div class="item-wrap pr-gutter lg:pl-2"><span class="item-label">' . esc_html__( 'Next Post', 'yuki' ) . '</span><span class="item-title">%title</span></div>',
