@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Yuki 1.4.7\n"
+"Project-Id-Version: Yuki 1.4.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/yuki\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-23T00:06:11+00:00\n"
+"POT-Creation-Date: 2025-04-28T03:05:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: yuki\n"
@@ -105,7 +105,7 @@ msgid "Elements Gap"
 msgstr ""
 
 #: inc/builder/class-builder-column.php:140
-#: inc/elements/class-menu-element.php:184
+#: inc/elements/class-menu-element.php:182
 msgid "Direction"
 msgstr ""
 
@@ -296,8 +296,8 @@ msgid "Bottom Row"
 msgstr ""
 
 #: inc/builder/class-footer-row.php:111
-#: inc/elements/class-menu-element.php:381
-#: inc/elements/class-menu-element.php:395
+#: inc/elements/class-menu-element.php:379
+#: inc/elements/class-menu-element.php:393
 msgid "General"
 msgstr ""
 
@@ -326,11 +326,11 @@ msgstr ""
 #: inc/customizer/class-store-catalog-section.php:131
 #: inc/elements/class-button-element.php:70
 #: inc/elements/class-cart-element.php:73
-#: inc/elements/class-collapsable-menu-element.php:104
+#: inc/elements/class-collapsable-menu-element.php:102
 #: inc/elements/class-copyright-element.php:45
 #: inc/elements/class-logo-element.php:112
-#: inc/elements/class-menu-element.php:382
-#: inc/elements/class-menu-element.php:396
+#: inc/elements/class-menu-element.php:380
+#: inc/elements/class-menu-element.php:394
 #: inc/elements/class-search-element.php:123
 #: inc/elements/class-theme-switch-element.php:55
 #: inc/elements/class-trigger-element.php:47
@@ -526,7 +526,7 @@ msgstr ""
 #: inc/customizer/class-global-section.php:367
 #: inc/customizer/class-store-catalog-section.php:128
 #: inc/elements/class-button-element.php:45
-#: inc/elements/class-collapsable-menu-element.php:66
+#: inc/elements/class-collapsable-menu-element.php:64
 #: inc/elements/class-copyright-element.php:44
 #: inc/elements/class-logo-element.php:41
 #: inc/elements__premium_only/class-breadcrumbs-element.php:38
@@ -559,14 +559,14 @@ msgstr ""
 #: inc/customizer/class-global-section.php:429
 #: inc/customizer/class-global-section.php:439
 #: inc/customizer/class-single-post-section.php:135
-#: inc/elements/class-collapsable-menu-element.php:122
+#: inc/elements/class-collapsable-menu-element.php:120
 #: inc/elements/class-copyright-element.php:65
 #: inc/elements/class-logo-element.php:138
 #: inc/elements/class-logo-element.php:160
-#: inc/elements/class-menu-element.php:129
-#: inc/elements/class-menu-element.php:144
-#: inc/elements/class-menu-element.php:246
-#: inc/elements/class-menu-element.php:261
+#: inc/elements/class-menu-element.php:127
+#: inc/elements/class-menu-element.php:142
+#: inc/elements/class-menu-element.php:244
+#: inc/elements/class-menu-element.php:259
 #: inc/elements/class-search-element.php:143
 #: inc/elements/class-search-element.php:150
 #: inc/elements/class-search-element.php:158
@@ -604,12 +604,12 @@ msgstr ""
 #: inc/customizer/class-global-section.php:430
 #: inc/customizer/class-global-section.php:440
 #: inc/customizer/class-single-post-section.php:136
-#: inc/elements/class-collapsable-menu-element.php:123
+#: inc/elements/class-collapsable-menu-element.php:121
 #: inc/elements/class-copyright-element.php:66
 #: inc/elements/class-logo-element.php:140
-#: inc/elements/class-menu-element.php:131
-#: inc/elements/class-menu-element.php:146
-#: inc/elements/class-menu-element.php:248
+#: inc/elements/class-menu-element.php:129
+#: inc/elements/class-menu-element.php:144
+#: inc/elements/class-menu-element.php:246
 #: inc/elements/class-search-element.php:159
 #: inc/elements__premium_only/class-html-element.php:82
 #: inc/homepage/elements/class-posts-slider-element.php:348
@@ -669,7 +669,7 @@ msgstr ""
 #: inc/customizer/class-global-section.php:411
 #: inc/elements/class-logo-element.php:60
 #: inc/elements/class-logo-element.php:106
-#: inc/elements/class-menu-element.php:189
+#: inc/elements/class-menu-element.php:187
 #: inc/homepage/elements/class-hero-element.php:138
 #: inc/homepage/elements/class-hero-element.php:175
 #: inc/homepage/elements/class-text-element.php:76
@@ -686,7 +686,7 @@ msgstr ""
 #: inc/customizer/class-global-section.php:412
 #: inc/elements/class-logo-element.php:61
 #: inc/elements/class-logo-element.php:108
-#: inc/elements/class-menu-element.php:190
+#: inc/elements/class-menu-element.php:188
 #: inc/homepage/elements/class-hero-element.php:140
 #: inc/homepage/elements/class-hero-element.php:177
 #: inc/homepage/elements/class-text-element.php:84
@@ -1061,11 +1061,11 @@ msgstr ""
 #: inc/customizer/class-content-section.php:378
 #: inc/customizer/class-content-section.php:481
 #: inc/customizer/class-store-catalog-section.php:104
-#: inc/elements/class-collapsable-menu-element.php:124
-#: inc/elements/class-menu-element.php:133
-#: inc/elements/class-menu-element.php:148
-#: inc/elements/class-menu-element.php:250
-#: inc/elements/class-menu-element.php:263
+#: inc/elements/class-collapsable-menu-element.php:122
+#: inc/elements/class-menu-element.php:131
+#: inc/elements/class-menu-element.php:146
+#: inc/elements/class-menu-element.php:248
+#: inc/elements/class-menu-element.php:261
 #: inc/homepage/elements/class-posts-slider-element.php:437
 #: inc/traits/trait-password-protected.php:63
 msgid "Active"
@@ -1090,10 +1090,10 @@ msgstr ""
 #: inc/customizer/class-content-section.php:356
 #: inc/customizer/class-content-section.php:462
 #: inc/customizer/class-store-catalog-section.php:88
-#: inc/elements/class-collapsable-menu-element.php:106
+#: inc/elements/class-collapsable-menu-element.php:104
 #: inc/elements/class-copyright-element.php:47
-#: inc/elements/class-menu-element.php:106
-#: inc/elements/class-menu-element.php:224
+#: inc/elements/class-menu-element.php:104
+#: inc/elements/class-menu-element.php:222
 #: inc/elements__premium_only/class-breadcrumbs-element.php:92
 #: inc/elements__premium_only/class-datetime-element.php:102
 #: inc/elements__premium_only/class-html-element.php:63
@@ -1231,8 +1231,8 @@ msgstr ""
 
 #: inc/customizer/class-content-section.php:367
 #: inc/customizer/class-single-post-section.php:130
-#: inc/elements/class-menu-element.php:122
-#: inc/elements/class-menu-element.php:239
+#: inc/elements/class-menu-element.php:120
+#: inc/elements/class-menu-element.php:237
 #: inc/elements__premium_only/class-contacts-element.php:186
 #: inc/elements__premium_only/class-datetime-element.php:113
 #: inc/traits/trait-button-controls.php:100
@@ -1464,8 +1464,8 @@ msgid "Icon Color"
 msgstr ""
 
 #: inc/customizer/class-global-section.php:437
-#: inc/elements/class-menu-element.php:137
-#: inc/elements/class-menu-element.php:255
+#: inc/elements/class-menu-element.php:135
+#: inc/elements/class-menu-element.php:253
 #: inc/traits/trait-icon-button-controls.php:132
 #: inc/traits/trait-post-structure.php:198
 msgid "Background Color"
@@ -1696,51 +1696,51 @@ msgstr ""
 msgid "No Follow"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:50
-#: inc/elements/class-menu-element.php:331
+#: inc/elements/class-collapsable-menu-element.php:48
+#: inc/elements/class-menu-element.php:329
 msgid "Edit Menu Locations"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:55
-#: inc/elements/class-menu-element.php:336
+#: inc/elements/class-collapsable-menu-element.php:53
+#: inc/elements/class-menu-element.php:334
 msgid "Menu Depth"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:56
-#: inc/elements/class-menu-element.php:337
+#: inc/elements/class-collapsable-menu-element.php:54
+#: inc/elements/class-menu-element.php:335
 msgid "\"0\" meas no limit."
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:68
+#: inc/elements/class-collapsable-menu-element.php:66
 msgid "Collapsable"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:69
+#: inc/elements/class-collapsable-menu-element.php:67
 msgid "This option will collapse/expand the sub menu items on click/touch."
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:75
-#: inc/elements/class-menu-element.php:361
+#: inc/elements/class-collapsable-menu-element.php:73
+#: inc/elements/class-menu-element.php:359
 msgid "Toggle Icon"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:84
+#: inc/elements/class-collapsable-menu-element.php:82
 msgid "Toggle Style"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:89
+#: inc/elements/class-collapsable-menu-element.php:87
 msgid "Simple"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:90
+#: inc/elements/class-collapsable-menu-element.php:88
 msgid "Bordered"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:97
+#: inc/elements/class-collapsable-menu-element.php:95
 msgid "Toggle Border"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:116
+#: inc/elements/class-collapsable-menu-element.php:114
 #: inc/elements/class-copyright-element.php:57
 #: inc/elements__premium_only/class-html-element.php:73
 #: inc/homepage/elements/class-posts-slider-element.php:346
@@ -1748,8 +1748,8 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: inc/elements/class-collapsable-menu-element.php:128
-#: inc/elements/class-menu-element.php:268
+#: inc/elements/class-collapsable-menu-element.php:126
+#: inc/elements/class-menu-element.php:266
 #: inc/traits/trait-post-structure.php:637
 msgid "Items Divider"
 msgstr ""
@@ -1863,52 +1863,52 @@ msgstr ""
 msgid "Fully customize your logo in our %sPro Version%s"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:54
+#: inc/elements/class-menu-element.php:52
 msgid "Items Height"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:63
+#: inc/elements/class-menu-element.php:61
 msgid "Items Margin"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:75
-#: inc/elements/class-menu-element.php:195
+#: inc/elements/class-menu-element.php:73
+#: inc/elements/class-menu-element.php:193
 msgid "Items Padding"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:87
+#: inc/elements/class-menu-element.php:85
 msgid "Items Border Radius"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:164
+#: inc/elements/class-menu-element.php:162
 msgid "Fully customize your top level menu items in our %sPro Version%s"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:177
+#: inc/elements/class-menu-element.php:175
 msgid "Min Width"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:206
+#: inc/elements/class-menu-element.php:204
 msgid "Dropdown Border Radius"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:275
+#: inc/elements/class-menu-element.php:273
 msgid "Dropdown Shadow"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:316
+#: inc/elements/class-menu-element.php:314
 msgid "Fully customize your dropdown style in our %sPro Version%s"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:353
+#: inc/elements/class-menu-element.php:351
 msgid "Sub Menu Toggle Icon"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:376
+#: inc/elements/class-menu-element.php:374
 msgid "Top Level Options"
 msgstr ""
 
-#: inc/elements/class-menu-element.php:391
+#: inc/elements/class-menu-element.php:389
 msgid "Dropdown Options"
 msgstr ""
 
