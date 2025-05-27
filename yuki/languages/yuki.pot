@@ -2,16 +2,16 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Yuki 1.4.8\n"
+"Project-Id-Version: Yuki 1.4.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/yuki\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-28T03:05:05+00:00\n"
+"POT-Creation-Date: 2025-05-27T08:54:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: yuki\n"
 
 #. Theme Name of the theme
@@ -46,6 +46,7 @@ msgstr ""
 
 #. translators: %s: The count of comments
 #: comments.php:40
+#, php-format
 msgid "%s Comments"
 msgstr ""
 
@@ -139,8 +140,8 @@ msgstr ""
 #: inc/homepage/class-homepage-column.php:158
 #: inc/homepage/class-homepage-row.php:128
 #: inc/homepage/class-homepage-row.php:149
-#: inc/homepage/elements/class-hero-element.php:139
-#: inc/homepage/elements/class-hero-element.php:176
+#: inc/homepage/elements/class-hero-element.php:153
+#: inc/homepage/elements/class-hero-element.php:190
 #: inc/homepage/elements/class-text-element.php:80
 #: inc/homepage/elements/class-text-element.php:99
 #: inc/traits/trait-article-controls.php:177
@@ -331,7 +332,7 @@ msgstr ""
 #: inc/elements/class-logo-element.php:112
 #: inc/elements/class-menu-element.php:380
 #: inc/elements/class-menu-element.php:394
-#: inc/elements/class-search-element.php:123
+#: inc/elements/class-search-element.php:177
 #: inc/elements/class-theme-switch-element.php:55
 #: inc/elements/class-trigger-element.php:47
 #: inc/elements__premium_only/class-breadcrumbs-element.php:39
@@ -364,7 +365,7 @@ msgstr ""
 #: inc/customizer/class-store-notice-section.php:40
 #: inc/homepage/class-homepage-column.php:169
 #: inc/homepage/class-homepage-row.php:177
-#: inc/homepage/elements/class-hero-element.php:259
+#: inc/homepage/elements/class-hero-element.php:273
 #: inc/homepage/elements/class-posts-slider-element.php:351
 #: inc/homepage/elements/class-posts-slider-element.php:435
 #: inc/traits/trait-card-element-controls.php:105
@@ -495,7 +496,7 @@ msgid "Primary Navbar"
 msgstr ""
 
 #: inc/builder/class-header-row.php:104
-#: inc/homepage/elements/class-hero-element.php:191
+#: inc/homepage/elements/class-hero-element.php:205
 #: inc/traits/trait-button-controls.php:89
 msgid "Min Height"
 msgstr ""
@@ -547,7 +548,7 @@ msgid "Content"
 msgstr ""
 
 #: inc/builder/class-modal-row.php:119
-#: inc/elements/class-search-element.php:156
+#: inc/elements/class-search-element.php:142
 msgid "Close Button Color"
 msgstr ""
 
@@ -567,13 +568,13 @@ msgstr ""
 #: inc/elements/class-menu-element.php:142
 #: inc/elements/class-menu-element.php:244
 #: inc/elements/class-menu-element.php:259
-#: inc/elements/class-search-element.php:143
-#: inc/elements/class-search-element.php:150
-#: inc/elements/class-search-element.php:158
+#: inc/elements/class-search-element.php:129
+#: inc/elements/class-search-element.php:136
+#: inc/elements/class-search-element.php:144
 #: inc/elements__premium_only/class-html-element.php:81
-#: inc/homepage/elements/class-hero-element.php:247
-#: inc/homepage/elements/class-hero-element.php:281
-#: inc/homepage/elements/class-hero-element.php:297
+#: inc/homepage/elements/class-hero-element.php:261
+#: inc/homepage/elements/class-hero-element.php:295
+#: inc/homepage/elements/class-hero-element.php:311
 #: inc/homepage/elements/class-posts-slider-element.php:347
 #: inc/homepage/elements/class-posts-slider-element.php:352
 #: inc/homepage/elements/class-posts-slider-element.php:436
@@ -610,7 +611,7 @@ msgstr ""
 #: inc/elements/class-menu-element.php:129
 #: inc/elements/class-menu-element.php:144
 #: inc/elements/class-menu-element.php:246
-#: inc/elements/class-search-element.php:159
+#: inc/elements/class-search-element.php:145
 #: inc/elements__premium_only/class-html-element.php:82
 #: inc/homepage/elements/class-posts-slider-element.php:348
 #: inc/homepage/elements/class-posts-slider-element.php:353
@@ -633,7 +634,7 @@ msgid "Hover"
 msgstr ""
 
 #: inc/builder/class-modal-row.php:129
-#: inc/elements/class-search-element.php:163
+#: inc/elements/class-search-element.php:149
 msgid "Modal Background"
 msgstr ""
 
@@ -651,7 +652,7 @@ msgstr ""
 
 #: inc/builder/class-modal-row.php:168
 #: inc/elements/class-search-element.php:46
-#: inc/elements/class-search-element.php:154
+#: inc/elements/class-search-element.php:140
 msgid "Modal"
 msgstr ""
 
@@ -670,8 +671,8 @@ msgstr ""
 #: inc/elements/class-logo-element.php:60
 #: inc/elements/class-logo-element.php:106
 #: inc/elements/class-menu-element.php:187
-#: inc/homepage/elements/class-hero-element.php:138
-#: inc/homepage/elements/class-hero-element.php:175
+#: inc/homepage/elements/class-hero-element.php:152
+#: inc/homepage/elements/class-hero-element.php:189
 #: inc/homepage/elements/class-text-element.php:76
 #: inc/homepage/elements/class-text-element.php:95
 #: inc/traits/trait-article-controls.php:173
@@ -687,8 +688,8 @@ msgstr ""
 #: inc/elements/class-logo-element.php:61
 #: inc/elements/class-logo-element.php:108
 #: inc/elements/class-menu-element.php:188
-#: inc/homepage/elements/class-hero-element.php:140
-#: inc/homepage/elements/class-hero-element.php:177
+#: inc/homepage/elements/class-hero-element.php:154
+#: inc/homepage/elements/class-hero-element.php:191
 #: inc/homepage/elements/class-text-element.php:84
 #: inc/homepage/elements/class-text-element.php:103
 #: inc/traits/trait-article-controls.php:181
@@ -812,7 +813,7 @@ msgstr ""
 #: inc/extensions/class-related-posts-extension.php:167
 #: inc/homepage/class-homepage-column.php:106
 #: inc/homepage/class-homepage-row.php:106
-#: inc/homepage/elements/class-hero-element.php:200
+#: inc/homepage/elements/class-hero-element.php:214
 #: inc/homepage/elements/class-magazine-element.php:110
 #: inc/homepage/elements/class-posts-grid-element.php:49
 #: dist/js/block-editor.js:72
@@ -845,6 +846,7 @@ msgid "Card Columns"
 msgstr ""
 
 #: inc/customizer/class-archive-section.php:168
+#, php-format
 msgid "Customize card columns in %sPro Version%s"
 msgstr ""
 
@@ -918,6 +920,7 @@ msgstr ""
 
 #: inc/customizer/class-archive-section.php:280
 #: inc/customizer/class-archive-section.php:435
+#, php-format
 msgid "More archive header options in %sPro Version%s"
 msgstr ""
 
@@ -929,7 +932,7 @@ msgid "Alignment"
 msgstr ""
 
 #: inc/customizer/class-archive-section.php:319
-#: inc/homepage/elements/class-hero-element.php:279
+#: inc/homepage/elements/class-hero-element.php:293
 msgid "Title Color"
 msgstr ""
 
@@ -937,18 +940,18 @@ msgstr ""
 #: inc/elements__premium_only/class-contacts-element.php:163
 #: inc/homepage/elements/class-features-element.php:76
 #: inc/homepage/elements/class-heading-element.php:95
-#: inc/homepage/elements/class-hero-element.php:270
+#: inc/homepage/elements/class-hero-element.php:284
 msgid "Title Typography"
 msgstr ""
 
 #: inc/customizer/class-archive-section.php:342
-#: inc/homepage/elements/class-hero-element.php:295
+#: inc/homepage/elements/class-hero-element.php:309
 msgid "Description Color"
 msgstr ""
 
 #: inc/customizer/class-archive-section.php:349
 #: inc/homepage/elements/class-features-element.php:90
-#: inc/homepage/elements/class-hero-element.php:286
+#: inc/homepage/elements/class-hero-element.php:300
 msgid "Description Typography"
 msgstr ""
 
@@ -1066,12 +1069,14 @@ msgstr ""
 #: inc/elements/class-menu-element.php:146
 #: inc/elements/class-menu-element.php:248
 #: inc/elements/class-menu-element.php:261
+#: inc/elements/class-search-element.php:76
 #: inc/homepage/elements/class-posts-slider-element.php:437
 #: inc/traits/trait-password-protected.php:63
 msgid "Active"
 msgstr ""
 
 #: inc/customizer/class-colors-section.php:197
+#, php-format
 msgid "Fully customize your colors in %sPro Version%s"
 msgstr ""
 
@@ -1167,6 +1172,7 @@ msgid "Heading 6 (H6)"
 msgstr ""
 
 #: inc/customizer/class-content-section.php:201
+#, php-format
 msgid "More typography options in %sPro Version%s"
 msgstr ""
 
@@ -1226,6 +1232,7 @@ msgid "Headings 6 (H6)"
 msgstr ""
 
 #: inc/customizer/class-content-section.php:340
+#, php-format
 msgid "More color options in %sPro Version%s"
 msgstr ""
 
@@ -1255,6 +1262,7 @@ msgstr ""
 #: inc/customizer/class-content-section.php:480
 #: inc/customizer/class-global-section.php:447
 #: inc/customizer/class-store-catalog-section.php:103
+#: inc/elements/class-search-element.php:75
 #: inc/homepage/class-homepage-column.php:186
 #: inc/homepage/class-homepage-row.php:194
 #: inc/homepage/elements/class-posts-slider-element.php:357
@@ -1278,6 +1286,7 @@ msgstr ""
 
 #: inc/customizer/class-content-section.php:438
 #: inc/homepage/elements/class-posts-slider-element.php:161
+#, php-format
 msgid "More options in %sPro Version%s"
 msgstr ""
 
@@ -1292,6 +1301,7 @@ msgid "Modern"
 msgstr ""
 
 #: inc/customizer/class-footer-section.php:25
+#, php-format
 msgid "More Footer Elements in %sPro Version%s"
 msgstr ""
 
@@ -1356,6 +1366,7 @@ msgstr ""
 
 #. translators: placeholder here means the actual URL.
 #: inc/customizer/class-global-section.php:189
+#, php-format
 msgid "Social media sharing link formats, you can use {url} instead of the url of the current post and {text} instead of the title of the current post. %s Learn more %s"
 msgstr ""
 
@@ -1372,8 +1383,8 @@ msgstr ""
 #: inc/customizer/class-global-section.php:369
 #: inc/elements/class-cart-element.php:58
 #: inc/elements/class-cart-element.php:60
-#: inc/elements/class-search-element.php:109
-#: inc/elements/class-search-element.php:111
+#: inc/elements/class-search-element.php:163
+#: inc/elements/class-search-element.php:165
 #: inc/elements/class-theme-switch-element.php:33
 #: inc/elements/class-trigger-element.php:33
 #: inc/elements/class-trigger-element.php:35
@@ -1393,6 +1404,7 @@ msgid "Icon"
 msgstr ""
 
 #: inc/customizer/class-global-section.php:268
+#, php-format
 msgid "Add more social networks in %sPro Version%s"
 msgstr ""
 
@@ -1434,6 +1446,7 @@ msgid "Distance"
 msgstr ""
 
 #: inc/customizer/class-global-section.php:355
+#, php-format
 msgid "More scroll reveal options in %sPro Version%s"
 msgstr ""
 
@@ -1495,6 +1508,7 @@ msgid "Shadow Active"
 msgstr ""
 
 #: inc/customizer/class-global-section.php:553
+#, php-format
 msgid "Fully customize to top button in %sPro Version%s"
 msgstr ""
 
@@ -1568,6 +1582,7 @@ msgid "Complying with GDPR by using local google fonts."
 msgstr ""
 
 #: inc/customizer/class-header-section.php:26
+#, php-format
 msgid "More Header Elements in %sPro Version%s"
 msgstr ""
 
@@ -1645,11 +1660,12 @@ msgid "Store Product Card"
 msgstr ""
 
 #: inc/customizer/class-store-catalog-section.php:85
-#: inc/elements/class-search-element.php:139
+#: inc/elements/class-search-element.php:125
 msgid "Form"
 msgstr ""
 
 #: inc/customizer/class-store-notice-section.php:35
+#: inc/elements/class-search-element.php:74
 #: inc/elements__premium_only/class-breadcrumbs-element.php:74
 #: inc/elements__premium_only/class-breadcrumbs-element.php:109
 #: inc/homepage/class-homepage-builder.php:38
@@ -1684,14 +1700,14 @@ msgstr ""
 #: inc/elements/class-button-element.php:59
 #: inc/elements__premium_only/class-contacts-element.php:135
 #: inc/elements__premium_only/class-image-element.php:60
-#: inc/homepage/elements/class-hero-element.php:125
+#: inc/homepage/elements/class-hero-element.php:139
 #: inc/traits/trait-socials-controls.php:103
 msgid "Open In New Tab"
 msgstr ""
 
 #: inc/elements/class-button-element.php:64
 #: inc/elements__premium_only/class-image-element.php:65
-#: inc/homepage/elements/class-hero-element.php:129
+#: inc/homepage/elements/class-hero-element.php:143
 #: inc/traits/trait-socials-controls.php:108
 msgid "No Follow"
 msgstr ""
@@ -1771,6 +1787,7 @@ msgid "You can insert some arbitrary HTML code tags: {current_year}, {site_title
 msgstr ""
 
 #: inc/elements/class-copyright-element.php:87
+#, php-format
 msgid "Upgrade to our %sPro Version%s to change the copyright text"
 msgstr ""
 
@@ -1836,7 +1853,7 @@ msgid "Click here to change the site title and tagline."
 msgstr ""
 
 #: inc/elements/class-logo-element.php:100
-#: inc/homepage/elements/class-hero-element.php:134
+#: inc/homepage/elements/class-hero-element.php:148
 #: inc/traits/trait-article-controls.php:166
 #: inc/traits/trait-post-card.php:72
 #: inc/traits/trait-widgets-controls.php:177
@@ -1860,6 +1877,7 @@ msgid "Site Tagline Color"
 msgstr ""
 
 #: inc/elements/class-logo-element.php:191
+#, php-format
 msgid "Fully customize your logo in our %sPro Version%s"
 msgstr ""
 
@@ -1881,6 +1899,7 @@ msgid "Items Border Radius"
 msgstr ""
 
 #: inc/elements/class-menu-element.php:162
+#, php-format
 msgid "Fully customize your top level menu items in our %sPro Version%s"
 msgstr ""
 
@@ -1897,6 +1916,7 @@ msgid "Dropdown Shadow"
 msgstr ""
 
 #: inc/elements/class-menu-element.php:314
+#, php-format
 msgid "Fully customize your dropdown style in our %sPro Version%s"
 msgstr ""
 
@@ -1940,49 +1960,55 @@ msgid "Inherit"
 msgstr ""
 
 #: inc/elements/class-search-element.php:72
+msgid "Form Input Color"
+msgstr ""
+
+#: inc/elements/class-search-element.php:86
 msgid "Search Input Width"
 msgstr ""
 
-#: inc/elements/class-search-element.php:89
+#: inc/elements/class-search-element.php:103
+#, php-format
 msgid "Inline search is available in our %sPro Version%s"
 msgstr ""
 
-#: inc/elements/class-search-element.php:96
+#: inc/elements/class-search-element.php:110
+#, php-format
 msgid "Popup search is available in our %sPro Version%s"
 msgstr ""
 
-#: inc/elements/class-search-element.php:106
-msgid "Search Icon"
-msgstr ""
-
-#: inc/elements/class-search-element.php:128
-msgid "Placeholder Text"
-msgstr ""
-
-#: inc/elements/class-search-element.php:130
-msgid "Type & Hit Enter"
-msgstr ""
-
-#: inc/elements/class-search-element.php:136
+#: inc/elements/class-search-element.php:122
 msgid "Search Modal"
 msgstr ""
 
-#: inc/elements/class-search-element.php:141
+#: inc/elements/class-search-element.php:127
 #: inc/traits/trait-password-protected.php:58
 msgid "Input Color"
 msgstr ""
 
-#: inc/elements/class-search-element.php:144
-#: inc/elements/class-search-element.php:151
+#: inc/elements/class-search-element.php:130
+#: inc/elements/class-search-element.php:137
 msgid "Focus"
 msgstr ""
 
-#: inc/elements/class-search-element.php:145
+#: inc/elements/class-search-element.php:131
 msgid "Placeholder"
 msgstr ""
 
-#: inc/elements/class-search-element.php:148
+#: inc/elements/class-search-element.php:134
 msgid "Input Border Color"
+msgstr ""
+
+#: inc/elements/class-search-element.php:160
+msgid "Search Icon"
+msgstr ""
+
+#: inc/elements/class-search-element.php:182
+msgid "Placeholder Text"
+msgstr ""
+
+#: inc/elements/class-search-element.php:184
+msgid "Type & Hit Enter"
 msgstr ""
 
 #: inc/elements/class-theme-switch-element.php:35
@@ -2115,6 +2141,7 @@ msgstr ""
 #. translators: placeholder here means the actual URL.
 #: inc/elements__premium_only/class-datetime-element.php:45
 #: inc/traits/trait-post-structure.php:580
+#, php-format
 msgid "Date format %s instructions %s."
 msgstr ""
 
@@ -2397,6 +2424,7 @@ msgid "900 Italic"
 msgstr ""
 
 #: inc/extensions__premium_only/class-particles-premium-extension.php:77
+#, php-format
 msgid "%sClick here%s to generate JSON for the below field."
 msgstr ""
 
@@ -2476,22 +2504,27 @@ msgid "The installation process is starting. This process may take a while on so
 msgstr ""
 
 #: inc/helpers.php:356
+#, php-format
 msgid "Upgrading %s ..."
 msgstr ""
 
 #: inc/helpers.php:362
+#, php-format
 msgid "Installing %s ..."
 msgstr ""
 
 #: inc/helpers.php:369
+#, php-format
 msgid "Activating %s ..."
 msgstr ""
 
 #: inc/helpers.php:373
+#, php-format
 msgid "%s installed successfully"
 msgstr ""
 
 #: inc/helpers.php:377
+#, php-format
 msgid "Could not install the %s plugin."
 msgstr ""
 
@@ -2628,7 +2661,7 @@ msgstr ""
 
 #: inc/homepage/elements/class-features-element.php:64
 #: inc/homepage/elements/class-features-element.php:213
-#: inc/homepage/elements/class-hero-element.php:111
+#: inc/homepage/elements/class-hero-element.php:125
 msgid "Description"
 msgstr ""
 
@@ -2642,8 +2675,8 @@ msgid "Title & Description"
 msgstr ""
 
 #: inc/homepage/elements/class-features-element.php:110
-#: inc/homepage/elements/class-hero-element.php:155
-#: inc/homepage/elements/class-hero-element.php:157
+#: inc/homepage/elements/class-hero-element.php:169
+#: inc/homepage/elements/class-hero-element.php:171
 msgid "Media"
 msgstr ""
 
@@ -2660,6 +2693,7 @@ msgid "Media Type"
 msgstr ""
 
 #: inc/homepage/elements/class-features-element.php:220
+#, php-format
 msgid "Add More than 3 features in our %sPro Version%s"
 msgstr ""
 
@@ -2673,8 +2707,8 @@ msgid "Sub Title"
 msgstr ""
 
 #: inc/homepage/elements/class-heading-element.php:57
-#: inc/traits/trait-widgets-controls.php:128
-msgid "Widget Title Tag"
+#: inc/homepage/elements/class-hero-element.php:111
+msgid "Title Tag"
 msgstr ""
 
 #: inc/homepage/elements/class-heading-element.php:109
@@ -2709,69 +2743,69 @@ msgstr ""
 msgid "Build Your Awesome Business"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:117
+#: inc/homepage/elements/class-hero-element.php:131
 msgid "Button Text"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:118
+#: inc/homepage/elements/class-hero-element.php:132
 msgid "Get Started"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:121
+#: inc/homepage/elements/class-hero-element.php:135
 msgid "Button URL"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:145
+#: inc/homepage/elements/class-hero-element.php:159
 #: inc/traits/trait-post-card.php:61
 #: dist/js/block-editor.js:178
 msgid "Content Spacing"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:163
+#: inc/homepage/elements/class-hero-element.php:177
 msgid "Media Height"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:171
+#: inc/homepage/elements/class-hero-element.php:185
 msgid "Media Alignment"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:203
+#: inc/homepage/elements/class-hero-element.php:217
 msgid "Content - Media"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:204
+#: inc/homepage/elements/class-hero-element.php:218
 msgid "Media - Content"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:216
+#: inc/homepage/elements/class-hero-element.php:230
 msgid "Shape Divider"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:221
+#: inc/homepage/elements/class-hero-element.php:235
 msgid "Flip"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:225
+#: inc/homepage/elements/class-hero-element.php:239
 msgid "Invert"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:230
+#: inc/homepage/elements/class-hero-element.php:244
 msgid "Shape Divider Width"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:237
+#: inc/homepage/elements/class-hero-element.php:251
 msgid "Shape Divider Height"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:245
+#: inc/homepage/elements/class-hero-element.php:259
 msgid "Shape Color"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:267
+#: inc/homepage/elements/class-hero-element.php:281
 msgid "Title & Description Style"
 msgstr ""
 
-#: inc/homepage/elements/class-hero-element.php:303
+#: inc/homepage/elements/class-hero-element.php:317
 msgid "Button Style"
 msgstr ""
 
@@ -2815,6 +2849,7 @@ msgid "Select Layout"
 msgstr ""
 
 #: inc/homepage/elements/class-magazine-element.php:145
+#, php-format
 msgid "Unlock all magazine grid layouts in our %sPro Version%s"
 msgstr ""
 
@@ -2920,6 +2955,7 @@ msgid "Display Pagination On Hover"
 msgstr ""
 
 #: inc/homepage/elements/class-posts-slider-element.php:319
+#, php-format
 msgid "Fully customize slider navigation in our %sPro Version%s"
 msgstr ""
 
@@ -2928,6 +2964,7 @@ msgid "Box Size"
 msgstr ""
 
 #: inc/homepage/elements/class-posts-slider-element.php:406
+#, php-format
 msgid "Fully customize slider pagination in our %sPro Version%s"
 msgstr ""
 
@@ -3112,6 +3149,7 @@ msgid "Someone"
 msgstr ""
 
 #: inc/homepage/elements/class-reviews-element.php:164
+#, php-format
 msgid "Add More than 3 reviews in our %sPro Version%s"
 msgstr ""
 
@@ -3245,6 +3283,7 @@ msgid "Book (Pro)"
 msgstr ""
 
 #: inc/template-tags.php:1982
+#, php-format
 msgid "Upgrade to %sPro Version%s to enable this feature"
 msgstr ""
 
@@ -3273,6 +3312,7 @@ msgid "Frontpage Widgets"
 msgstr ""
 
 #: inc/traits/trait-advanced-css-controls.php:21
+#, php-format
 msgid "More advanced features like custom CSS ID and CSS Classes available in our %sPro Version%s"
 msgstr ""
 
@@ -3377,6 +3417,7 @@ msgid "Button Color"
 msgstr ""
 
 #: inc/traits/trait-card-element-controls.php:120
+#, php-format
 msgid "Fully customize card style in our %sPro Version%s"
 msgstr ""
 
@@ -3416,6 +3457,7 @@ msgid "Outline"
 msgstr ""
 
 #: inc/traits/trait-icon-button-controls.php:92
+#, php-format
 msgid "More icon options in our %sPro Version%s"
 msgstr ""
 
@@ -3424,6 +3466,7 @@ msgid "Border Color"
 msgstr ""
 
 #: inc/traits/trait-icon-button-controls.php:170
+#, php-format
 msgid "Fully customize your icon button in our %sPro Version%s"
 msgstr ""
 
@@ -3481,10 +3524,12 @@ msgid "Nyan Cat"
 msgstr ""
 
 #: inc/traits/trait-particles-effect.php:182
+#, php-format
 msgid "You can customize your particles effect using the online editor in %sPro Version%s"
 msgstr ""
 
 #: inc/traits/trait-particles-effect.php:207
+#, php-format
 msgid "More particle options available in %sPro Version%s"
 msgstr ""
 
@@ -3521,6 +3566,7 @@ msgid "Card Radius"
 msgstr ""
 
 #: inc/traits/trait-post-card.php:200
+#, php-format
 msgid "Fully customize your posts card style in our %sPro Version%s"
 msgstr ""
 
@@ -3582,6 +3628,7 @@ msgid "Show Disabled Buttons"
 msgstr ""
 
 #: inc/traits/trait-post-pagination.php:148
+#, php-format
 msgid "Load More & Infinite Scroll is available in our %sPro Version%s"
 msgstr ""
 
@@ -3602,10 +3649,12 @@ msgid "Text Active"
 msgstr ""
 
 #: inc/traits/trait-post-query.php:49
+#, php-format
 msgid "More query options in our %sPro Version%s"
 msgstr ""
 
 #: inc/traits/trait-post-query.php:51
+#, php-format
 msgid "Manual selection is only available in our %sPro Version%s"
 msgstr ""
 
@@ -3659,6 +3708,7 @@ msgstr ""
 #: inc/traits/trait-post-structure.php:383
 #: inc/traits/trait-post-structure.php:485
 #: inc/traits/trait-post-structure.php:659
+#, php-format
 msgid "More options in our %sPro Version%s"
 msgstr ""
 
@@ -3768,6 +3818,7 @@ msgid "Icons Color"
 msgstr ""
 
 #: inc/traits/trait-socials-controls.php:181
+#, php-format
 msgid "More social icon options in our %sPro Version%s"
 msgstr ""
 
@@ -3780,6 +3831,7 @@ msgid "Icons Border Color"
 msgstr ""
 
 #: inc/traits/trait-socials-controls.php:279
+#, php-format
 msgid "Fully customize your social icons in our %sPro Version%s"
 msgstr ""
 
@@ -3801,7 +3853,12 @@ msgstr ""
 msgid "Style 2"
 msgstr ""
 
+#: inc/traits/trait-widgets-controls.php:128
+msgid "Widget Title Tag"
+msgstr ""
+
 #: inc/traits/trait-widgets-controls.php:159
+#, php-format
 msgid "More widget options in our %sPro Version%s"
 msgstr ""
 
@@ -3830,6 +3887,7 @@ msgid "Widgets Color"
 msgstr ""
 
 #: inc/traits/trait-widgets-controls.php:261
+#, php-format
 msgid "Fully customize your widgets in our %sPro Version%s"
 msgstr ""
 
@@ -3842,6 +3900,7 @@ msgid "The child theme you are using is for the Yuki Free Edition. "
 msgstr ""
 
 #: template-parts/admin-premium-child-notice.php:29
+#, php-format
 msgid "Please go %s here %s to download the premium version."
 msgstr ""
 
@@ -3975,6 +4034,7 @@ msgstr ""
 
 #. translators: %1$s: the url of 'post-new.php'
 #: template-parts/content-none.php:32
+#, php-format
 msgid "Ready to publish your first post? <a class=\"link\" href=\"%1$s\">Get started here</a>."
 msgstr ""
 

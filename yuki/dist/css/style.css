@@ -1841,6 +1841,7 @@ div:not(.is-style-outline) > .wp-block-button__link:not(:disabled):hover,
   height: 100%;
   padding: 0 1.5rem;
   font-size: 1.25rem;
+  color: var(--yuki-search-submit-initial-color, var(--yuki-accent-color));
 }
 .woocommerce .yuki-search-modal-form .search-submit,
 .yuki-search-modal-form .search-submit {
@@ -1863,6 +1864,7 @@ div:not(.is-style-outline) > .wp-block-button__link:not(:disabled):hover,
 }
 
 .yuki-search-wrap .yuki-search-form-icon {
+  color: inherit;
   height: 100%;
   display: flex;
   align-items: center;
@@ -2664,6 +2666,58 @@ nav.woocommerce-pagination > .page-numbers > li:last-child {
   font-size: inherit;
   /* clears the 'X' from Internet Explorer */
   /* clears the 'X' from Chrome */
+}
+.woocommerce form .yuki-form-control::-moz-placeholder, .woocommerce form textarea::-moz-placeholder, .woocommerce form select::-moz-placeholder, .woocommerce form .select2-selection--single::-moz-placeholder, .woocommerce form [type=url]::-moz-placeholder, .woocommerce form [type=email]::-moz-placeholder, .woocommerce form [type=tel]::-moz-placeholder, .woocommerce form [type=password]::-moz-placeholder, .woocommerce form [type=number]::-moz-placeholder, .woocommerce form [type=search]::-moz-placeholder, .woocommerce form [type=text]::-moz-placeholder, .yuki-article-content .yuki-form-control::-moz-placeholder, .yuki-article-content textarea::-moz-placeholder, .yuki-article-content select::-moz-placeholder, .yuki-article-content .select2-selection--single::-moz-placeholder, .yuki-article-content [type=url]::-moz-placeholder, .yuki-article-content [type=email]::-moz-placeholder, .yuki-article-content [type=tel]::-moz-placeholder, .yuki-article-content [type=password]::-moz-placeholder, .yuki-article-content [type=number]::-moz-placeholder, .yuki-article-content [type=search]::-moz-placeholder, .yuki-article-content [type=text]::-moz-placeholder, .yuki-widget .yuki-form-control::-moz-placeholder, .yuki-widget textarea::-moz-placeholder, .yuki-widget select::-moz-placeholder, .yuki-widget .select2-selection--single::-moz-placeholder, .yuki-widget [type=url]::-moz-placeholder, .yuki-widget [type=email]::-moz-placeholder, .yuki-widget [type=tel]::-moz-placeholder, .yuki-widget [type=password]::-moz-placeholder, .yuki-widget [type=number]::-moz-placeholder, .yuki-widget [type=search]::-moz-placeholder, .yuki-widget [type=text]::-moz-placeholder, .yuki-raw-html .yuki-form-control::-moz-placeholder, .yuki-raw-html textarea::-moz-placeholder, .yuki-raw-html select::-moz-placeholder, .yuki-raw-html .select2-selection--single::-moz-placeholder, .yuki-raw-html [type=url]::-moz-placeholder, .yuki-raw-html [type=email]::-moz-placeholder, .yuki-raw-html [type=tel]::-moz-placeholder, .yuki-raw-html [type=password]::-moz-placeholder, .yuki-raw-html [type=number]::-moz-placeholder, .yuki-raw-html [type=search]::-moz-placeholder, .yuki-raw-html [type=text]::-moz-placeholder, .yuki-form .yuki-form-control::-moz-placeholder, .yuki-form textarea::-moz-placeholder, .yuki-form select::-moz-placeholder, .yuki-form .select2-selection--single::-moz-placeholder, .yuki-form [type=url]::-moz-placeholder, .yuki-form [type=email]::-moz-placeholder, .yuki-form [type=tel]::-moz-placeholder, .yuki-form [type=password]::-moz-placeholder, .yuki-form [type=number]::-moz-placeholder, .yuki-form [type=search]::-moz-placeholder, .yuki-form [type=text]::-moz-placeholder {
+  color: var(--yuki-form-placeholder-color, inherit);
+  opacity: var(--yuki-form-placeholder-opacity, 0.65);
+}
+.woocommerce form .yuki-form-control::placeholder, .woocommerce form textarea::placeholder, .woocommerce form select::placeholder, .woocommerce form .select2-selection--single::placeholder, .woocommerce form [type=url]::placeholder, .woocommerce form [type=email]::placeholder, .woocommerce form [type=tel]::placeholder, .woocommerce form [type=password]::placeholder, .woocommerce form [type=number]::placeholder, .woocommerce form [type=search]::placeholder, .woocommerce form [type=text]::placeholder,
+.yuki-article-content .yuki-form-control::placeholder,
+.yuki-article-content textarea::placeholder,
+.yuki-article-content select::placeholder,
+.yuki-article-content .select2-selection--single::placeholder,
+.yuki-article-content [type=url]::placeholder,
+.yuki-article-content [type=email]::placeholder,
+.yuki-article-content [type=tel]::placeholder,
+.yuki-article-content [type=password]::placeholder,
+.yuki-article-content [type=number]::placeholder,
+.yuki-article-content [type=search]::placeholder,
+.yuki-article-content [type=text]::placeholder,
+.yuki-widget .yuki-form-control::placeholder,
+.yuki-widget textarea::placeholder,
+.yuki-widget select::placeholder,
+.yuki-widget .select2-selection--single::placeholder,
+.yuki-widget [type=url]::placeholder,
+.yuki-widget [type=email]::placeholder,
+.yuki-widget [type=tel]::placeholder,
+.yuki-widget [type=password]::placeholder,
+.yuki-widget [type=number]::placeholder,
+.yuki-widget [type=search]::placeholder,
+.yuki-widget [type=text]::placeholder,
+.yuki-raw-html .yuki-form-control::placeholder,
+.yuki-raw-html textarea::placeholder,
+.yuki-raw-html select::placeholder,
+.yuki-raw-html .select2-selection--single::placeholder,
+.yuki-raw-html [type=url]::placeholder,
+.yuki-raw-html [type=email]::placeholder,
+.yuki-raw-html [type=tel]::placeholder,
+.yuki-raw-html [type=password]::placeholder,
+.yuki-raw-html [type=number]::placeholder,
+.yuki-raw-html [type=search]::placeholder,
+.yuki-raw-html [type=text]::placeholder,
+.yuki-form .yuki-form-control::placeholder,
+.yuki-form textarea::placeholder,
+.yuki-form select::placeholder,
+.yuki-form .select2-selection--single::placeholder,
+.yuki-form [type=url]::placeholder,
+.yuki-form [type=email]::placeholder,
+.yuki-form [type=tel]::placeholder,
+.yuki-form [type=password]::placeholder,
+.yuki-form [type=number]::placeholder,
+.yuki-form [type=search]::placeholder,
+.yuki-form [type=text]::placeholder {
+  color: var(--yuki-form-placeholder-color, inherit);
+  opacity: var(--yuki-form-placeholder-opacity, 0.65);
 }
 .woocommerce form .yuki-form-control:focus, .woocommerce form textarea:focus, .woocommerce form select:focus, .woocommerce form .select2-selection--single:focus, .woocommerce form [type=url]:focus, .woocommerce form [type=email]:focus, .woocommerce form [type=tel]:focus, .woocommerce form [type=password]:focus, .woocommerce form [type=number]:focus, .woocommerce form [type=search]:focus, .woocommerce form [type=text]:focus,
 .yuki-article-content .yuki-form-control:focus,

@@ -40,7 +40,12 @@ if ( !class_exists( 'Yuki_Search_Element' ) ) {
             ] )->setControls( [yuki_upsell_info_control( __( 'Inline search is available in our %sPro Version%s', 'yuki' ) )->showBackground()] ), ( new Condition() )->setCondition( [
                 $this->getSlug( 'style' ) => 'popup',
             ] )->setControls( [yuki_upsell_info_control( __( 'Popup search is available in our %sPro Version%s', 'yuki' ) )->showBackground()] )] );
-            return array_merge( $controls, [( new Tabs() )->setLabel( __( 'Search Icon', 'yuki' ) )->showLabel()->setActiveTab( 'icon' )->addTab( 'icon', __( 'Icon', 'yuki' ), array_merge( [( new Icons($this->getSlug( 'icon_button_icon' )) )->setLabel( __( 'Icon', 'yuki' ) )->selectiveRefresh( ...$this->selectiveRefresh() )->setDefaultValue( [
+            return array_merge( $controls, [( new Condition() )->setCondition( [
+                $this->getSlug( 'style' ) => 'modal',
+            ] )->setControls( [( new Tabs() )->setLabel( __( 'Search Modal', 'yuki' ) )->showLabel()->setActiveTab( 'form' )->addTab( 'form', __( 'Form', 'yuki' ), [( new ColorPicker($this->getSlug( 'input_color' )) )->setLabel( __( 'Input Color', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->addColor( 'initial', __( 'Initial', 'yuki' ), 'var(--yuki-accent-color)' )->addColor( 'focus', __( 'Focus', 'yuki' ), 'var(--yuki-accent-color)' )->addColor( 'placeholder', __( 'Placeholder', 'yuki' ), 'var(--yuki-accent-color)' ), ( new ColorPicker($this->getSlug( 'input_border_color' )) )->setLabel( __( 'Input Border Color', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->addColor( 'initial', __( 'Initial', 'yuki' ), 'var(--yuki-base-200)' )->addColor( 'focus', __( 'Focus', 'yuki' ), 'var(--yuki-primary-color)' )] )->addTab( 'modal', __( 'Modal', 'yuki' ), [( new ColorPicker($this->getSlug( 'modal_close_color' )) )->setLabel( __( 'Close Button Color', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->addColor( 'initial', __( 'Initial', 'yuki' ), 'var(--yuki-accent-active)' )->addColor( 'hover', __( 'Hover', 'yuki' ), 'var(--yuki-primary-color)' ), new Separator(), ( new Background($this->getSlug( 'modal_background' )) )->setLabel( __( 'Modal Background', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->setDefaultValue( [
+                'type'  => 'color',
+                'color' => 'var(--yuki-base-color)',
+            ] )] )] ), ( new Tabs() )->setLabel( __( 'Search Icon', 'yuki' ) )->showLabel()->setActiveTab( 'icon' )->addTab( 'icon', __( 'Icon', 'yuki' ), array_merge( [( new Icons($this->getSlug( 'icon_button_icon' )) )->setLabel( __( 'Icon', 'yuki' ) )->selectiveRefresh( ...$this->selectiveRefresh() )->setDefaultValue( [
                 'value'   => 'fas fa-magnifying-glass',
                 'library' => 'fa-solid',
             ] ), new Separator()], $this->getIconControls( [
@@ -48,12 +53,7 @@ if ( !class_exists( 'Yuki_Search_Element' ) ) {
                 'selector'        => ".{$this->slug}",
             ] ) ) )->addTab( 'style', __( 'Style', 'yuki' ), $this->getIconStyleControls( [
                 'selector' => ".{$this->slug}",
-            ] ) ), ( new Text($this->getSlug( 'placeholder' )) )->setLabel( __( 'Placeholder Text', 'yuki' ) )->selectiveRefresh( '.yuki-search-modal-form', [$this, 'render_search_form'] )->setDefaultValue( __( 'Type & Hit Enter', 'yuki' ) ), ( new Condition() )->setCondition( [
-                $this->getSlug( 'style' ) => 'modal',
-            ] )->setControls( [( new Tabs() )->setLabel( __( 'Search Modal', 'yuki' ) )->showLabel()->setActiveTab( 'form' )->addTab( 'form', __( 'Form', 'yuki' ), [( new ColorPicker($this->getSlug( 'input_color' )) )->setLabel( __( 'Input Color', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->addColor( 'initial', __( 'Initial', 'yuki' ), 'var(--yuki-accent-color)' )->addColor( 'focus', __( 'Focus', 'yuki' ), 'var(--yuki-accent-color)' )->addColor( 'placeholder', __( 'Placeholder', 'yuki' ), 'var(--yuki-accent-color)' ), ( new ColorPicker($this->getSlug( 'input_border_color' )) )->setLabel( __( 'Input Border Color', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->addColor( 'initial', __( 'Initial', 'yuki' ), 'var(--yuki-base-200)' )->addColor( 'focus', __( 'Focus', 'yuki' ), 'var(--yuki-primary-color)' )] )->addTab( 'modal', __( 'Modal', 'yuki' ), [( new ColorPicker($this->getSlug( 'modal_close_color' )) )->setLabel( __( 'Close Button Color', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->addColor( 'initial', __( 'Initial', 'yuki' ), 'var(--yuki-accent-active)' )->addColor( 'hover', __( 'Hover', 'yuki' ), 'var(--yuki-primary-color)' ), new Separator(), ( new Background($this->getSlug( 'modal_background' )) )->setLabel( __( 'Modal Background', 'yuki' ) )->bindSelectiveRefresh( 'yuki-header-selective-css' )->setDefaultValue( [
-                'type'  => 'color',
-                'color' => 'var(--yuki-base-color)',
-            ] )] )] )] );
+            ] ) ), ( new Text($this->getSlug( 'placeholder' )) )->setLabel( __( 'Placeholder Text', 'yuki' ) )->selectiveRefresh( '.yuki-search-modal-form', [$this, 'render_search_form'] )->setDefaultValue( __( 'Type & Hit Enter', 'yuki' ) )] );
         }
 
         /**
@@ -86,6 +86,12 @@ if ( !class_exists( 'Yuki_Search_Element' ) ) {
                             'hover'   => '--yuki-modal-action-hover',
                         ] )
                     );
+                } else {
+                    $css[".{$this->slug}"] = array_merge( Css::colors( CZ::get( $this->getSlug( 'form_input_color' ) ), [
+                        'text'   => ['--yuki-form-text-color', 'color'],
+                        'border' => '--yuki-form-border-color',
+                        'active' => '--yuki-form-active-color',
+                    ] ) );
                 }
                 //				$css[".{$this->slug}_modal .search-input"] = [
                 //					'text-align' => 'center',

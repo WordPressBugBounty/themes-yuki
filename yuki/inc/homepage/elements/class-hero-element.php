@@ -59,6 +59,15 @@ if ( !class_exists( 'Yuki_Hero_Element' ) ) {
         protected function getContentControls() {
             return [( new Tabs() )->setActiveTab( 'content' )->addTab( 'content', __( 'Content', 'yuki' ), [
                 ( new Text($this->getSlug( 'title' )) )->setLabel( __( 'Title', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'title', __( 'Build Your Awesome Business', 'yuki' ) ) ),
+                ( new Select($this->getSlug( 'title_tag' )) )->setLabel( __( 'Title Tag', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'title-tag', 'h2' ) )->setChoices( [
+                    'h1'   => 'H1',
+                    'h2'   => 'H2',
+                    'h3'   => 'H3',
+                    'h4'   => 'H4',
+                    'h5'   => 'H5',
+                    'h6'   => 'H6',
+                    'span' => 'Span',
+                ] ),
                 ( new Editor($this->getSlug( 'description' )) )->setLabel( __( 'Description', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'description', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' ) ),
                 new Separator(),
                 ( new Text($this->getSlug( 'button_text' )) )->setLabel( __( 'Button Text', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'button-text', __( 'Get Started', 'yuki' ) ) ),
@@ -292,6 +301,7 @@ if ( !class_exists( 'Yuki_Hero_Element' ) ) {
                 $this->add_render_attribute( $id, 'data-shortcut-location', $attrs['location'] );
             }
             $title = $this->get( $this->getSlug( 'title' ), $settings );
+            $tag = $this->get( $this->getSlug( 'title_tag' ), $settings );
             $desc = $this->get( $this->getSlug( 'description' ), $settings );
             $button_text = $this->get( $this->getSlug( 'button_text' ), $settings );
             if ( $button_text != '' ) {
@@ -323,16 +333,14 @@ if ( !class_exists( 'Yuki_Hero_Element' ) ) {
             ?>">
                     <div class="hero-content yuki-scroll-reveal">
 						<?php 
-            if ( $title != '' ) {
-                ?>
-                            <h1 class="hero-title mb-gutter"><?php 
+            if ( $title !== '' ) {
+                echo '<' . $tag . ' class="hero-title mb-gutter">';
                 echo esc_html( $title );
-                ?></h1>
-						<?php 
+                echo '</' . $tag . '>';
             }
             ?>
 						<?php 
-            if ( $desc != '' ) {
+            if ( $desc !== '' ) {
                 ?>
                             <div class="hero-description mb-gutter yuki-raw-html"><?php 
                 echo do_shortcode( wp_kses_post( $desc ) );
@@ -341,7 +349,7 @@ if ( !class_exists( 'Yuki_Hero_Element' ) ) {
             }
             ?>
 						<?php 
-            if ( $button_text != '' ) {
+            if ( $button_text !== '' ) {
                 ?>
                             <div class="mt-double-gutter">
                                 <a class="hero-button yuki-button" <?php 

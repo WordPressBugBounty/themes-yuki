@@ -35,7 +35,7 @@ if ( !class_exists( 'Yuki_Heading_Element' ) ) {
             return [
                 ( new Text($this->getSlug( 'title' )) )->setLabel( __( 'Title', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'title', __( 'Awesome title', 'yuki' ) ) ),
                 ( new Text($this->getSlug( 'sub-title' )) )->setLabel( __( 'Sub Title', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'sub-title', 'Lorem ipsum is placeholder text commonly used' ) ),
-                ( new Select($this->getSlug( 'title-tag' )) )->setLabel( __( 'Widget Title Tag', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'title-tag', 'h3' ) )->setChoices( [
+                ( new Select($this->getSlug( 'title-tag' )) )->setLabel( __( 'Title Tag', 'yuki' ) )->setDefaultValue( $this->getDefaultSetting( 'title-tag', 'h3' ) )->setChoices( [
                     'h1'   => 'H1',
                     'h2'   => 'H2',
                     'h3'   => 'H3',
